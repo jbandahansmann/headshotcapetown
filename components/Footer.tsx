@@ -10,7 +10,7 @@ export default function Footer() {
             Headshot <span style={{ fontStyle: "italic" }}>Cape Town</span>
           </div>
           <p style={{ fontSize: 14, opacity: 0.65, marginTop: 20, maxWidth: 320, lineHeight: 1.6 }}>
-            Corporate headshot photography by Jurgen Ammerlaan. Studio in Woodstock, on-location across Cape Town.
+            Corporate headshot photography by Jürgen Banda-Hansmann. Studio in Woodstock, on-location across Cape Town.
           </p>
         </div>
         <div>
@@ -41,11 +41,12 @@ export default function Footer() {
         </div>
       </div>
       <div style={{ marginTop: 48, paddingTop: 24, borderTop: "1px solid #ffffff14", fontSize: 14, opacity: 0.75, maxWidth: 520, lineHeight: 1.5 }}>
-        Looking for personal branding, lifestyle or broader photography work? Visit{" "}
-        <a href={siteConfig.parent.url} style={{ color: "var(--paper)" }}>{siteConfig.parent.url.replace("https://", "")}</a> — the wider studio.
+        Headshot Cape Town is an offering from{" "}
+        <a href={siteConfig.parent.url} style={{ color: "var(--paper)" }}>{siteConfig.parent.name}</a>. For personal branding, lifestyle or broader work, visit the wider studio at{" "}
+        <a href={siteConfig.parent.url} style={{ color: "var(--paper)" }}>{siteConfig.parent.url.replace("https://", "")}</a>.
       </div>
       <div style={{ marginTop: 36, paddingTop: 24, borderTop: "1px solid #ffffff20", display: "flex", justifyContent: "space-between", fontSize: 12, opacity: 0.55, fontFamily: "var(--mono)", flexWrap: "wrap", gap: 12 }}>
-        <span>© 2026 Headshot Cape Town · A Jurgen.co.za studio</span>
+        <span>© 2026 Headshot Cape Town · An offering from {siteConfig.parent.name}</span>
         <span>headshotcapetown.co.za</span>
       </div>
     </footer>

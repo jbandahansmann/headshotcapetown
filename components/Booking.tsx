@@ -42,7 +42,7 @@ export default function Booking() {
               <span className="eyebrow">Phone</span>
               <span style={{ fontFamily: "var(--serif)", fontSize: "clamp(18px, 2vw, 22px)" }}>{siteConfig.phoneHuman}</span>
             </a>
-            <a href={waLink("Hi Jurgen, I'd like a quote for headshots.")} target="_blank" rel="noopener" style={{ color: "var(--midnight)", textDecoration: "none", display: "flex", flexDirection: "column", gap: 4 }}>
+            <a href={waLink("Hi Jürgen, I'd like a quote for headshots.")} target="_blank" rel="noopener" style={{ color: "var(--midnight)", textDecoration: "none", display: "flex", flexDirection: "column", gap: 4 }}>
               <span className="eyebrow">WhatsApp</span>
               <span style={{ fontFamily: "var(--serif)", fontSize: "clamp(18px, 2vw, 22px)" }}>Chat now →</span>
             </a>

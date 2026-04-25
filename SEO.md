@@ -21,7 +21,7 @@
 1. **Google Search Console** — verify `headshotcapetown.co.za` (DNS TXT record method)
 2. **Submit sitemap** to Search Console: `https://headshotcapetown.co.za/sitemap.xml`
 3. **Bing Webmaster** — verify and submit sitemap (carries Yahoo + DuckDuckGo)
-4. **Google Business Profile** — create a *new* GBP for "Headshot Cape Town" (separate from Jurgen.co.za GBP, allowed because it's a distinct service brand). Same address. Different phone optional.
+4. **Google Business Profile** — create a *new* GBP for "Headshot Cape Town" (separate from the Jürgen's Photography GBP, allowed because it's a distinct service brand). Same address. Different phone optional.
 5. **Add GA4 measurement ID** to Vercel env vars (`NEXT_PUBLIC_GA_ID`)
 
 ## Month 1–3 actions

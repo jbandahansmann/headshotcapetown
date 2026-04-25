@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "on-location headshots cape town",
     "business portrait photographer cape town",
   ],
-  authors: [{ name: "Jurgen Ammerlaan" }],
+  authors: [{ name: "Jürgen Banda-Hansmann" }],
   openGraph: {
     type: "website",
     locale: "en_ZA",
@@ -67,7 +67,7 @@ const localBusinessSchema = {
     reviewCount: siteConfig.rating.count,
     bestRating: 5, worstRating: 1,
   },
-  founder: { "@type": "Person", name: "Jurgen Ammerlaan" },
+  founder: { "@type": "Person", name: "Jürgen Banda-Hansmann" },
   foundingDate: siteConfig.founded,
   areaServed: { "@type": "City", name: "Cape Town" },
 };

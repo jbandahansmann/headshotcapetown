@@ -27,7 +27,7 @@ export default async function JournalPost({ params }: { params: { slug: string }
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { "@type": "Person", name: "Jurgen Ammerlaan" },
+    author: { "@type": "Person", name: "Jürgen Banda-Hansmann" },
     publisher: { "@type": "Organization", name: "Headshot Cape Town" },
   };
 

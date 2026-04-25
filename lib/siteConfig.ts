@@ -24,9 +24,9 @@ export const siteConfig = {
   },
   social: {
     instagram: "https://instagram.com/jurgenphoto",
-    linkedin: "https://linkedin.com/in/jurgen-ammerlaan",
+    linkedin: "https://www.linkedin.com/in/jbandahansmann/",
   },
-  parent: { name: "Jurgen.co.za", url: "https://jurgen.co.za" },
+  parent: { name: "Jürgen's Photography", url: "https://jurgen.co.za" },
   rating: { value: 5.0, count: 27 },
   founded: "2008",
 };
