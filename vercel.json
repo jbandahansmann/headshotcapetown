@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/.netlify/:path*",
-      "destination": "https://curious-fenglisu-beffbf.netlify.app/.netlify/:path*"
-    }
-  ]
-}

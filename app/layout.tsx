@@ -76,11 +76,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-ZA">
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var h=window.location.hash;if(h&&/^#(invite_token|recovery_token|confirmation_token|email_change_token)=/.test(h)){window.location.replace("/auth/"+h);}})();`,
-          }}
-        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
