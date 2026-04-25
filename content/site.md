@@ -1,17 +1,17 @@
 ---
 title: Headshot Cape Town
 hero:
-  eyebrow: Corporate headshots · Cape Town · Est. 2008
-  headline_line1: "Headshots that "
-  headline_line2: actually look
-  headline_italic: like you
-  headline_line3: on your best day.
   body: Studio in Woodstock and on-location across Cape Town. Fast turnaround.
     Transparent pricing. The kind of corporate portrait that doesn't make you
     flinch on LinkedIn.
-  primary_cta: Request a quote
   secondary_cta: WhatsApp 078 919 0454
-  portrait: ""
+  eyebrow: Corporate headshots · Cape Town · Est. 2008
+  headline_line1: "Headshots that "
+  headline_line2: actually look
+  primary_cta: Request a quote
+  headline_line3: on your best day.
+  headline_italic: like you
+  portrait: /images/uploads/business-headshots-consultant-cape-town.webp
 personal:
   portrait: ""
 trust:
