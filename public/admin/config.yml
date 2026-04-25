@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: jbandahansmann/headshotcapetown
+  name: git-gateway
   branch: main
 
 media_folder: "public/images/uploads"
