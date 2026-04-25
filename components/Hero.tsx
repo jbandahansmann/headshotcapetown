@@ -35,9 +35,15 @@ export default function Hero({ hero, trust }: { hero: any; trust: any }) {
           </div>
         </div>
       </div>
-      <div style={{ aspectRatio: "4/5", background: "#e8e4dc" }} className="placeholder">
-        Hero portrait — replace via CMS
-      </div>
+      {hero?.portrait ? (
+        <div style={{ aspectRatio: "4/5", overflow: "hidden" }}>
+          <img src={hero.portrait} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+        </div>
+      ) : (
+        <div style={{ aspectRatio: "4/5", background: "#e8e4dc" }} className="placeholder">
+          Hero portrait — upload via CMS
+        </div>
+      )}
     </section>
   );
 }

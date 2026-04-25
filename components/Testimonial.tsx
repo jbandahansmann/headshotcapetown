@@ -3,7 +3,13 @@ import { Stars } from "./Stars";
 export default function Testimonial({ t }: { t: any }) {
   return (
     <section className="section grid-2" style={{ gridTemplateColumns: "1fr 1.3fr" }}>
-      <div className="placeholder" style={{ aspectRatio: "4/5", minHeight: 260 }}>Testimonial portrait — TBC</div>
+      {t.portrait ? (
+        <div style={{ aspectRatio: "4/5", minHeight: 260, overflow: "hidden" }}>
+          <img src={t.portrait} alt={t.author} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+        </div>
+      ) : (
+        <div className="placeholder" style={{ aspectRatio: "4/5", minHeight: 260 }}>Testimonial portrait — upload via CMS</div>
+      )}
       <div>
         <div className="eyebrow section-tag">Testimonial · {t.author}, {t.role}{t.company ? `, ${t.company}` : ""}</div>
         <blockquote style={{ fontFamily: "var(--serif)", fontSize: "clamp(22px, 3.4vw, 40px)", fontWeight: 400, letterSpacing: "-0.015em", lineHeight: 1.2, marginTop: 24 }}>

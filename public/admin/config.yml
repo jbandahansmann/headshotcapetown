@@ -30,6 +30,12 @@ collections:
               - { label: "Body", name: "body", widget: "text" }
               - { label: "Primary CTA", name: "primary_cta", widget: "string" }
               - { label: "Secondary CTA", name: "secondary_cta", widget: "string" }
+              - { label: "Hero portrait", name: "portrait", widget: "image", required: false, hint: "Tall portrait for the hero section. 4:5 ratio works best." }
+          - label: "Personal section"
+            name: "personal"
+            widget: "object"
+            fields:
+              - { label: "Portrait", name: "portrait", widget: "image", required: false, hint: "Portrait shown in the 'For individuals' section. 4:5 ratio." }
           - label: "Trust"
             name: "trust"
             widget: "object"
@@ -46,6 +52,8 @@ collections:
               - { label: "Headline", name: "headline", widget: "string" }
               - { label: "Headline italic", name: "headline_italic", widget: "string" }
               - { label: "Body", name: "body", widget: "text" }
+              - { label: "Team shot 1 (top right)", name: "image_1", widget: "image", required: false, hint: "Landscape orientation works best." }
+              - { label: "Team shot 2 (bottom left)", name: "image_2", widget: "image", required: false, hint: "Portrait orientation works best." }
               - label: "Stats"
                 name: "stats"
                 widget: "list"
@@ -94,6 +102,7 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Role", name: "role", widget: "string" }
       - { label: "Company", name: "company", widget: "string", required: false }
+      - { label: "Portrait", name: "portrait", widget: "image", required: false, hint: "Only used on featured testimonials. 4:5 ratio." }
       - { label: "Featured (large)", name: "featured", widget: "boolean", default: false }
       - { label: "Order", name: "order", widget: "number" }
 

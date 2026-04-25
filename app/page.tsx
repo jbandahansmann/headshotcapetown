@@ -42,7 +42,7 @@ export default async function Home() {
       <Header />
       <Hero hero={site.hero} trust={site.trust} />
       <LogoStrip />
-      <Personal />
+      <Personal portrait={site.personal?.portrait} />
       <Pricing packages={pricing.packages ?? []} />
       <Process steps={site.process?.steps ?? []} />
       <OnLocation data={site.on_location} />

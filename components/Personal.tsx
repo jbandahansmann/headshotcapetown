@@ -1,4 +1,4 @@
-export default function Personal() {
+export default function Personal({ portrait }: { portrait?: string }) {
   return (
     <section className="section" style={{ background: "#fff", borderTop: "1px solid #02135319", borderBottom: "1px solid #02135319" }}>
       <div className="grid-2-uneven">
@@ -20,7 +20,13 @@ export default function Personal() {
             ))}
           </ul>
         </div>
-        <div style={{ aspectRatio: "4/5" }} className="placeholder">Personal portrait</div>
+        {portrait ? (
+          <div style={{ aspectRatio: "4/5", overflow: "hidden" }}>
+            <img src={portrait} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+          </div>
+        ) : (
+          <div style={{ aspectRatio: "4/5" }} className="placeholder">Personal portrait — upload via CMS</div>
+        )}
       </div>
     </section>
   );

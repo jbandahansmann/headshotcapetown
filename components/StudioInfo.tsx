@@ -14,7 +14,7 @@ export default function StudioInfo() {
           <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 18, fontSize: 15 }}>
             <div><div className="eyebrow" style={{ marginBottom: 4 }}>Address</div>{s.street}, {s.suburb}, {s.city}</div>
             <div><div className="eyebrow" style={{ marginBottom: 4 }}>Hours</div>By appointment, Mon–Fri 8am–6pm</div>
-            <div><div className="eyebrow" style={{ marginBottom: 4 }}>Parking</div>Free on-site parking, lift access to studio</div>
+            <div><div className="eyebrow" style={{ marginBottom: 4 }}>Parking</div>Free street parking, lift access to studio</div>
             <div><div className="eyebrow" style={{ marginBottom: 4 }}>Travel</div>On-location anywhere in Cape Town · R4,500 setup + R750/head</div>
           </div>
         </div>
