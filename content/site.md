@@ -13,7 +13,7 @@ hero:
   headline_italic: like you
   portrait: /images/uploads/business-headshots-consultant-cape-town.webp
 personal:
-  portrait: ""
+  portrait: /images/uploads/corporate-headshot-male-executive-blue-blazer-cape-town.webp
 trust:
   rating: 5
   rating_count: 27
