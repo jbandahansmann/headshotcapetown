@@ -26,8 +26,8 @@ on_location:
   body: For teams of ten or more, we set up a full studio in any meeting room.
     Same lighting, same direction, same look across every person — so your About
     page doesn't read as a collage.
-  image_1: ""
-  image_2: ""
+  image_1: /images/uploads/cape-town-headshots-friendly-team-profile.webp
+  image_2: /images/uploads/team-headshot-00007.webp
   stats:
     - k: 10 min
       v: per person, on average
