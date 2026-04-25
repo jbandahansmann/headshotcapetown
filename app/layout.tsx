@@ -83,10 +83,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
         <script
           dangerouslySetInnerHTML={{
-            __html: `if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(user){if(!user){window.netlifyIdentity.on("login",function(){document.location.href="/admin/";});}});}`,
+            __html: `(function(){function ready(cb){if(document.readyState!=="loading"){cb();}else{document.addEventListener("DOMContentLoaded",cb);}}ready(function(){if(!window.netlifyIdentity)return;window.netlifyIdentity.init({APIUrl:"https://curious-fenglisu-beffbf.netlify.app/.netlify/identity"});window.netlifyIdentity.on("init",function(user){if(!user){window.netlifyIdentity.on("login",function(){document.location.href="/admin/";});}});});})();`,
           }}
         />
         <script
