@@ -23,32 +23,32 @@ export default function Booking() {
   }
 
   return (
-    <section id="enquire" style={{ padding: "120px 64px", background: "var(--paper)" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 80 }} className="grid-2">
+    <section id="enquire" className="section" style={{ background: "var(--paper)" }}>
+      <div className="grid-2-text-right">
         <div>
           <div className="eyebrow section-tag">Enquire</div>
-          <h2 className="headline" style={{ fontSize: 56, marginTop: 12 }}>
+          <h2 className="headline headline-m" style={{ marginTop: 12 }}>
             Tell us about<br /><span className="italic">your shoot</span>.
           </h2>
-          <p style={{ fontSize: 17, lineHeight: 1.6, marginTop: 28, opacity: 0.78, maxWidth: 420 }}>
+          <p style={{ fontSize: "clamp(15px, 1.5vw, 17px)", lineHeight: 1.6, marginTop: 28, opacity: 0.78, maxWidth: 420 }}>
             We'll come back within one working day with a quote and a couple of available times.
           </p>
           <div style={{ marginTop: 40, display: "flex", flexDirection: "column", gap: 18 }}>
             <a href={`mailto:${siteConfig.email}`} style={{ color: "var(--midnight)", textDecoration: "none", display: "flex", flexDirection: "column", gap: 4 }}>
               <span className="eyebrow">Email</span>
-              <span style={{ fontFamily: "var(--serif)", fontSize: 22 }}>{siteConfig.email}</span>
+              <span style={{ fontFamily: "var(--serif)", fontSize: "clamp(18px, 2vw, 22px)", wordBreak: "break-word" }}>{siteConfig.email}</span>
             </a>
             <a href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} style={{ color: "var(--midnight)", textDecoration: "none", display: "flex", flexDirection: "column", gap: 4 }}>
               <span className="eyebrow">Phone</span>
-              <span style={{ fontFamily: "var(--serif)", fontSize: 22 }}>{siteConfig.phoneHuman}</span>
+              <span style={{ fontFamily: "var(--serif)", fontSize: "clamp(18px, 2vw, 22px)" }}>{siteConfig.phoneHuman}</span>
             </a>
             <a href={waLink("Hi Jurgen, I'd like a quote for headshots.")} target="_blank" rel="noopener" style={{ color: "var(--midnight)", textDecoration: "none", display: "flex", flexDirection: "column", gap: 4 }}>
               <span className="eyebrow">WhatsApp</span>
-              <span style={{ fontFamily: "var(--serif)", fontSize: 22 }}>Chat now →</span>
+              <span style={{ fontFamily: "var(--serif)", fontSize: "clamp(18px, 2vw, 22px)" }}>Chat now →</span>
             </a>
           </div>
         </div>
-        <form onSubmit={onSubmit} style={{ background: "#fff", padding: 40, border: "1px solid #02135326", display: "flex", flexDirection: "column", gap: 20 }}>
+        <form onSubmit={onSubmit} className="booking-form">
           <Field label="Your name" name="name" required />
           <Field label="Email" name="email" type="email" required />
           <Field label="Phone (optional)" name="phone" />
@@ -99,4 +99,5 @@ const inputStyle: React.CSSProperties = {
   fontSize: 15,
   fontFamily: "var(--sans)",
   color: "var(--midnight)",
+  width: "100%",
 };

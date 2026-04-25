@@ -12,9 +12,16 @@
   --serif: "Tiempos Headline", "Cormorant Garamond", Georgia, serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --gutter: clamp(20px, 5vw, 64px);
+  --section-y: clamp(64px, 9vw, 120px);
+  --section-y-tight: clamp(48px, 7vw, 100px);
+  --gap-l: clamp(36px, 6vw, 80px);
+  --gap-m: clamp(24px, 3vw, 48px);
+  --gap-s: clamp(16px, 2vw, 32px);
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; min-width: 0; }
 
 html, body {
   background: var(--paper);
@@ -26,7 +33,10 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
-body { min-height: 100vh; }
+html { overflow-x: hidden; }
+body { min-height: 100vh; overflow-x: hidden; }
+
+img { max-width: 100%; height: auto; display: block; }
 
 a { color: inherit; }
 
@@ -47,7 +57,7 @@ a { color: inherit; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 18px 28px;
+  padding: 16px 24px;
   font-family: var(--mono);
   font-size: 13px;
   letter-spacing: 0.04em;
@@ -57,6 +67,7 @@ a { color: inherit; }
   cursor: pointer;
   border: none;
   transition: opacity 0.15s ease, transform 0.15s ease;
+  text-align: center;
 }
 .btn:hover { opacity: 0.85; }
 .btn:active { transform: translateY(1px); }
@@ -68,10 +79,47 @@ a { color: inherit; }
   font-family: var(--serif);
   font-weight: 400;
   letter-spacing: -0.025em;
-  line-height: 0.98;
+  line-height: 1;
   color: var(--midnight);
 }
 .italic { font-style: italic; color: var(--navy); }
+
+/* Headline sizes — fluid clamp() */
+.headline-xxl { font-size: clamp(48px, 13vw, 120px); }
+.headline-xl  { font-size: clamp(40px, 10vw, 110px); }
+.headline-l   { font-size: clamp(34px, 6.5vw, 64px); }
+.headline-m   { font-size: clamp(30px, 5.5vw, 56px); }
+.headline-s   { font-size: clamp(28px, 4.6vw, 40px); }
+
+/* Layout helpers */
+.section { padding: var(--section-y) var(--gutter); }
+.section-x { padding-left: var(--gutter); padding-right: var(--gutter); }
+.section-tight { padding: var(--section-y-tight) var(--gutter); }
+
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap-l); align-items: center; }
+.grid-2-uneven { display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--gap-l); align-items: center; }
+.grid-2-text-right { display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--gap-l); align-items: start; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap-s); }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap-m); }
+.grid-stats { display: grid; grid-template-columns: repeat(3, auto); gap: clamp(24px, 5vw, 56px); }
+
+/* Tablet — collapse 3/4 col grids first.
+   !important is intentional: it overrides any inline `gridTemplateColumns`
+   set on the same element (e.g. when a component customises desktop ratios). */
+@media (max-width: 1024px) {
+  .grid-3 { grid-template-columns: 1fr 1fr !important; }
+  .grid-4 { grid-template-columns: 1fr 1fr !important; }
+  .grid-2,
+  .grid-2-uneven,
+  .grid-2-text-right { grid-template-columns: 1fr !important; gap: var(--gap-m) !important; }
+}
+
+/* Mobile — stack everything */
+@media (max-width: 640px) {
+  .grid-3,
+  .grid-4 { grid-template-columns: 1fr !important; }
+  .grid-stats { grid-template-columns: 1fr 1fr; gap: 24px; }
+}
 
 /* Image placeholder while CMS images load */
 .placeholder {
@@ -84,24 +132,15 @@ a { color: inherit; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(0,0,0,0.35);
-}
-
-/* Responsive */
-@media (max-width: 1024px) {
-  .grid-2 { grid-template-columns: 1fr !important; }
-  section { padding-left: 32px !important; padding-right: 32px !important; }
-}
-@media (max-width: 640px) {
-  section { padding-left: 20px !important; padding-right: 20px !important; }
-  .headline-xl { font-size: 56px !important; }
-  .headline-l { font-size: 40px !important; }
+  text-align: center;
+  padding: 16px;
 }
 
 /* Floating WhatsApp */
 .wa-float {
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: clamp(12px, 3vw, 20px);
+  bottom: clamp(12px, 3vw, 20px);
   z-index: 100;
   display: flex;
   align-items: center;
@@ -116,6 +155,7 @@ a { color: inherit; }
   font-size: 12px;
   letter-spacing: 0.04em;
   transition: transform 0.2s ease;
+  max-width: calc(100vw - 32px);
 }
 .wa-float:hover { transform: translateY(-2px); }
 .wa-float .label-row { display: flex; flex-direction: column; gap: 2px; line-height: 1.2; }
@@ -126,8 +166,113 @@ a { color: inherit; }
   border-radius: 50%;
   background: #fff;
   display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .wa-float .label-row { display: none; }
+  .wa-float { padding: 10px; gap: 0; }
+  .wa-float .icon-circle { width: 32px; height: 32px; }
+}
+
+/* Reserve space at the bottom of the page so the floating WhatsApp button
+   never sits on top of the footer or final CTA. */
+body { padding-bottom: 88px; }
+@media (max-width: 768px) { body { padding-bottom: 72px; } }
+
+/* Header — wrap items on mobile */
+.site-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 24px var(--gutter);
+  border-bottom: 1px solid #02135319;
+  gap: 16px;
 }
 @media (max-width: 640px) {
-  .wa-float .label-row { display: none; }
-  .wa-float { padding: 12px; }
+  .site-header { grid-template-columns: auto auto; }
+  .site-header .header-back { display: none; }
+}
+
+/* Footer — responsive columns */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: var(--gap-m);
+  align-items: flex-start;
+}
+@media (max-width: 1024px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+}
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+
+/* OnLocation image stack — keep two images visible on mobile */
+.onloc-images {
+  position: relative;
+  height: 520px;
+}
+@media (max-width: 1024px) {
+  .onloc-images { height: 420px; }
+  .onloc-images > div { width: 70% !important; }
+}
+@media (max-width: 640px) {
+  .onloc-images { height: auto; display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .onloc-images > div {
+    position: static !important;
+    width: 100% !important;
+    height: 220px !important;
+  }
+}
+
+/* Booking form — flatten on mobile */
+.booking-form {
+  background: #fff;
+  padding: clamp(24px, 4vw, 40px);
+  border: 1px solid #02135326;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Studio info — stack panel + map on mobile */
+.studio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #02135326;
+  background: #fff;
+}
+.studio-panel {
+  padding: clamp(28px, 5vw, 56px);
+  border-right: 1px solid #02135326;
+}
+.studio-map {
+  width: 100%;
+  min-height: 380px;
+  border: 0;
+  filter: grayscale(40%);
+  display: block;
+}
+@media (max-width: 1024px) {
+  .studio-grid { grid-template-columns: 1fr; }
+  .studio-panel { border-right: none; border-bottom: 1px solid #02135326; }
+  .studio-map { min-height: 300px; }
+}
+
+/* Journal header — stack title + link on mobile */
+.journal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+  margin-bottom: var(--gap-l);
+  flex-wrap: wrap;
+}
+
+/* Pricing card — readable padding on mobile */
+.pricing-card {
+  padding: clamp(24px, 3vw, 36px);
+  border: 1px solid #02135326;
+  display: flex;
+  flex-direction: column;
 }

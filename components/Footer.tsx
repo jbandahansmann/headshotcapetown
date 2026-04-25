@@ -3,10 +3,10 @@ import { siteConfig } from "../lib/siteConfig";
 
 export default function Footer() {
   return (
-    <footer style={{ background: "var(--midnight)", color: "var(--paper)", padding: "64px 64px 36px" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: 48, alignItems: "flex-start" }} className="grid-2">
+    <footer style={{ background: "var(--midnight)", color: "var(--paper)", padding: "clamp(48px, 7vw, 64px) var(--gutter) 36px" }}>
+      <div className="footer-grid">
         <div>
-          <div style={{ fontFamily: "var(--serif)", fontSize: 26 }}>
+          <div style={{ fontFamily: "var(--serif)", fontSize: "clamp(22px, 2.6vw, 26px)" }}>
             Headshot <span style={{ fontStyle: "italic" }}>Cape Town</span>
           </div>
           <p style={{ fontSize: 14, opacity: 0.65, marginTop: 20, maxWidth: 320, lineHeight: 1.6 }}>
@@ -25,7 +25,7 @@ export default function Footer() {
         <div>
           <div className="eyebrow" style={{ color: "#9ba0aa", marginBottom: 16 }}>Contact</div>
           <div style={{ display: "flex", flexDirection: "column", gap: 10, fontSize: 14, opacity: 0.85 }}>
-            <a href={`mailto:${siteConfig.email}`} style={{ color: "var(--paper)", textDecoration: "none" }}>{siteConfig.email}</a>
+            <a href={`mailto:${siteConfig.email}`} style={{ color: "var(--paper)", textDecoration: "none", wordBreak: "break-word" }}>{siteConfig.email}</a>
             <a href={`tel:${siteConfig.phone}`} style={{ color: "var(--paper)", textDecoration: "none" }}>{siteConfig.phoneHuman}</a>
             <a href={`https://wa.me/${siteConfig.whatsappNumber}`} style={{ color: "var(--paper)", textDecoration: "none" }}>WhatsApp</a>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
         Looking for personal branding, lifestyle or broader photography work? Visit{" "}
         <a href={siteConfig.parent.url} style={{ color: "var(--paper)" }}>{siteConfig.parent.url.replace("https://", "")}</a> — the wider studio.
       </div>
-      <div style={{ marginTop: 36, paddingTop: 24, borderTop: "1px solid #ffffff20", display: "flex", justifyContent: "space-between", fontSize: 12, opacity: 0.55, fontFamily: "var(--mono)" }}>
+      <div style={{ marginTop: 36, paddingTop: 24, borderTop: "1px solid #ffffff20", display: "flex", justifyContent: "space-between", fontSize: 12, opacity: 0.55, fontFamily: "var(--mono)", flexWrap: "wrap", gap: 12 }}>
         <span>© 2026 Headshot Cape Town · A Jurgen.co.za studio</span>
         <span>headshotcapetown.co.za</span>
       </div>

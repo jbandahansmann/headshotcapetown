@@ -12,12 +12,12 @@ export default function LogoStrip() {
       .sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
   }
   return (
-    <section style={{ padding: "0 64px 80px" }}>
+    <section className="section-x" style={{ paddingBottom: "clamp(48px, 7vw, 80px)" }}>
       <div className="eyebrow" style={{ textAlign: "center", marginBottom: 28 }}>Photographed for</div>
       {logos.length ? (
-        <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(logos.length, 6)}, 1fr)`, gap: 48, alignItems: "center", justifyItems: "center" }}>
+        <div style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(110px, 1fr))`, gap: "clamp(20px, 4vw, 48px)", alignItems: "center", justifyItems: "center" }}>
           {logos.map((l, i) => (
-            <img key={i} src={l.logo} alt={l.name} style={{ height: 32, opacity: 0.55, filter: "grayscale(100%)" }} />
+            <img key={i} src={l.logo} alt={l.name} style={{ height: 32, opacity: 0.55, filter: "grayscale(100%)", maxWidth: "100%" }} />
           ))}
         </div>
       ) : (

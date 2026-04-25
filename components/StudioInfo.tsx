@@ -4,11 +4,11 @@ export default function StudioInfo() {
   const s = siteConfig.studio;
   const mapsQuery = encodeURIComponent(`${s.name}, ${s.street}, ${s.suburb}, ${s.city}`);
   return (
-    <section style={{ padding: "0 64px 120px" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", border: "1px solid #02135326", background: "#fff" }} className="grid-2">
-        <div style={{ padding: 56, borderRight: "1px solid #02135326" }}>
+    <section className="section-x" style={{ paddingBottom: "clamp(64px, 10vw, 120px)" }}>
+      <div className="studio-grid">
+        <div className="studio-panel">
           <div className="eyebrow section-tag">Studio</div>
-          <h3 style={{ fontFamily: "var(--serif)", fontSize: 40, fontWeight: 400, marginTop: 12, lineHeight: 1.05 }}>
+          <h3 className="headline headline-s" style={{ marginTop: 12, lineHeight: 1.05 }}>
             {s.name},<br />{s.suburb}.
           </h3>
           <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 18, fontSize: 15 }}>
@@ -21,7 +21,7 @@ export default function StudioInfo() {
         <iframe
           title="Studio location"
           src={`https://maps.google.com/maps?q=${mapsQuery}&output=embed`}
-          style={{ width: "100%", minHeight: 380, border: 0, filter: "grayscale(40%)" }}
+          className="studio-map"
           loading="lazy"
         />
       </div>

@@ -1,23 +1,21 @@
 export default function Pricing({ packages }: { packages: any[] }) {
   return (
-    <section style={{ padding: "120px 64px" }}>
+    <section className="section">
       <div className="eyebrow section-tag">Pricing</div>
-      <h2 className="headline" style={{ fontSize: 64, marginTop: 12, maxWidth: 720 }}>
+      <h2 className="headline headline-l" style={{ marginTop: 12, maxWidth: 720 }}>
         Transparent <span className="italic">pricing</span>, no surprises.
       </h2>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, marginTop: 64 }} className="grid-2">
+      <div className="grid-3" style={{ marginTop: "clamp(40px, 6vw, 64px)" }}>
         {packages.map((p, i) => (
-          <div key={i} style={{
+          <div key={i} className="pricing-card" style={{
             background: i === 1 ? "var(--midnight)" : "#fff",
             color: i === 1 ? "var(--paper)" : "var(--midnight)",
-            padding: 36, border: "1px solid #02135326",
-            display: "flex", flexDirection: "column",
           }}>
             <div className="eyebrow" style={{ color: i === 1 ? "#9ba0aa" : "var(--bluegrey)" }}>
               {i === 1 ? "Most booked" : `0${i + 1}`}
             </div>
-            <h3 style={{ fontFamily: "var(--serif)", fontSize: 34, fontWeight: 400, marginTop: 12 }}>{p.name}</h3>
-            <div style={{ fontFamily: "var(--serif)", fontSize: 56, marginTop: 16, lineHeight: 1 }}>
+            <h3 style={{ fontFamily: "var(--serif)", fontSize: "clamp(26px, 3.4vw, 34px)", fontWeight: 400, marginTop: 12 }}>{p.name}</h3>
+            <div style={{ fontFamily: "var(--serif)", fontSize: "clamp(40px, 5.5vw, 56px)", marginTop: 16, lineHeight: 1 }}>
               {p.price_from ? "From " : ""}R{(p.price ?? p.price_from).toLocaleString()}
             </div>
             <p style={{ fontSize: 14, opacity: 0.75, marginTop: 12 }}>{p.blurb}</p>

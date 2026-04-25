@@ -27,14 +27,14 @@ export default function CalCom() {
   }, []);
 
   return (
-    <section style={{ padding: "100px 64px", background: "#fff", borderTop: "1px solid #02135319" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: 80, alignItems: "start" }} className="grid-2">
+    <section className="section" style={{ background: "#fff", borderTop: "1px solid #02135319" }}>
+      <div className="grid-2-text-right">
         <div>
           <div className="eyebrow section-tag">Or — book a 15-min call</div>
-          <h2 className="headline" style={{ fontSize: 56, marginTop: 12 }}>
+          <h2 className="headline headline-m" style={{ marginTop: 12 }}>
             Rather <span className="italic">talk</span> first?
           </h2>
-          <p style={{ fontSize: 17, lineHeight: 1.6, marginTop: 24, opacity: 0.78, maxWidth: 420 }}>
+          <p style={{ fontSize: "clamp(15px, 1.5vw, 17px)", lineHeight: 1.6, marginTop: 24, opacity: 0.78, maxWidth: 420 }}>
             For team shoots, complex briefs, or if you'd just rather hear a voice — pick a 15-minute slot.
             We'll talk through scope, dates and budget, and you'll have a quote in your inbox the same day.
           </p>
