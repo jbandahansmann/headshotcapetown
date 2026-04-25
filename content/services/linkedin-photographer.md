@@ -45,7 +45,7 @@ faqs:
   - q: How often should I update my LinkedIn photo?
     a: Every two to three years, or whenever you change roles, change your hair noticeably, or your photo starts to feel out of step with how you look now. The photos that date fastest are the ones that lean too hard into a trend.
   - q: Can I use the same photo on LinkedIn and on my company's About page?
-    a: Yes — and you should. Consistency makes you easier to recognise across platforms. We deliver in formats that work for both: square crop for LinkedIn, full-frame portrait for About pages and conference bios.
+    a: "Yes, and you should. Consistency makes you easier to recognise across platforms. We deliver in formats that work for both, with a square crop for LinkedIn and a full-frame portrait for About pages and conference bios."
   - q: Where is your studio?
     a: 401 Saltcircle Building, 19 Kent Street, Woodstock. Three minutes off the N1, parking at the door. Easy from the City Bowl, Southern Suburbs, and Atlantic Seaboard.
   - q: I'm not in Cape Town often. Can I book around a visit?

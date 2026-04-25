@@ -33,7 +33,7 @@ faqs:
   - q: Can you photograph me at my office instead?
     a: "Yes — anywhere in greater Cape Town. On-site setup is R4,500 and covers travel within the metro, plus R750 per head. Outside the metro (Hermanus, Paarl, Franschhoek) we'll quote travel separately."
   - q: What should I wear for a corporate headshot?
-    a: Solid colours, well-fitted, nothing too busy. The general rule is: a layer that holds its shape, in a colour that doesn't fight your skin tone. Once you book we send a one-page wardrobe guide with specifics for your industry.
+    a: "Solid colours, well-fitted, nothing too busy. The general rule is simple — a layer that holds its shape, in a colour that doesn't fight your skin tone. Once you book we send a one-page wardrobe guide with specifics for your industry."
   - q: Should I bring more than one outfit?
     a: Signature includes time for two or three changes, so you walk away with a range. Essential is one look. If you're not sure, bring two and we'll choose at the shoot.
   - q: Do you do retouching?
