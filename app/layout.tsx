@@ -76,6 +76,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-ZA">
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var h=window.location.hash;if(h&&/^#(invite_token|recovery_token|confirmation_token|email_change_token)=/.test(h)){window.location.replace("/admin/"+h);}})();`,
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -83,12 +88,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){function ready(cb){if(document.readyState!=="loading"){cb();}else{document.addEventListener("DOMContentLoaded",cb);}}ready(function(){if(!window.netlifyIdentity)return;window.netlifyIdentity.init({APIUrl:"https://curious-fenglisu-beffbf.netlify.app/.netlify/identity"});window.netlifyIdentity.on("init",function(user){if(!user){window.netlifyIdentity.on("login",function(){document.location.href="/admin/";});}});});})();`,
-          }}
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
