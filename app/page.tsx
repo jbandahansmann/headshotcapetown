@@ -1,4 +1,4 @@
-import { readMarkdown } from "../lib/mdx";
+import { readMarkdown, loadCollection, getAllJournalPosts } from "../lib/mdx";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import LogoStrip from "../components/LogoStrip";
@@ -16,18 +16,6 @@ import CalCom from "../components/CalCom";
 import FinalCTA from "../components/FinalCTA";
 import Footer from "../components/Footer";
 import WhatsAppFloat from "../components/WhatsAppFloat";
-import { getAllJournalPosts } from "../lib/mdx";
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-
-function loadCollection(folder: string) {
-  const dir = path.join(process.cwd(), "content", folder);
-  if (!fs.existsSync(dir)) return [];
-  return fs.readdirSync(dir)
-    .filter(f => f.endsWith(".md"))
-    .map(f => matter(fs.readFileSync(path.join(dir, f), "utf8")).data);
-}
 
 export default async function Home() {
   const site = readMarkdown("site.md")?.data ?? {};

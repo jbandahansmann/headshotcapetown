@@ -45,6 +45,14 @@ export async function getAllJournalPosts(): Promise<JournalPost[]> {
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
+export function loadCollection(folder: string): any[] {
+  const dir = path.join(contentDir, folder);
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith(".md"))
+    .map((f) => matter(fs.readFileSync(path.join(dir, f), "utf8")).data);
+}
+
 export function readMarkdown(relPath: string) {
   const full = path.join(contentDir, relPath);
   if (!fs.existsSync(full)) return null;
