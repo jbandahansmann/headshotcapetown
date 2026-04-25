@@ -9,7 +9,7 @@ export const siteConfig = {
   phone: "+27 78 919 0454",
   phoneHuman: "078 919 0454",
   whatsappNumber: process.env.NEXT_PUBLIC_WA_NUMBER || "27789190454",
-  calUsername: process.env.NEXT_PUBLIC_CAL_USERNAME || "your-cal-username/15min-discovery",
+  calUsername: process.env.NEXT_PUBLIC_CAL_USERNAME || "jurgen-banda-hansmann/15min",
   formEndpoint: process.env.NEXT_PUBLIC_FORM_ENDPOINT || "https://jurgen.co.za/api/enquiry.php",
   ga: process.env.NEXT_PUBLIC_GA_ID || "",
   studio: {

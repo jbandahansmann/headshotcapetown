@@ -2,28 +2,55 @@
 import { useEffect } from "react";
 import { siteConfig } from "../lib/siteConfig";
 
+const NAMESPACE = "headshot-cape-town";
+
 export default function CalCom() {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://app.cal.com/embed/embed.js";
-    script.async = true;
-    document.body.appendChild(script);
-    script.onload = () => {
-      // @ts-ignore
-      if (window.Cal) {
-        // @ts-ignore
-        window.Cal("init", { origin: "https://app.cal.com" });
-        // @ts-ignore
-        window.Cal("inline", {
-          elementOrSelector: "#cal-inline",
-          calLink: siteConfig.calUsername,
-          config: { theme: "light" },
-        });
-      }
-    };
-    return () => {
-      try { document.body.removeChild(script); } catch {}
-    };
+    // Cal.com's modern embed snippet — self-initialises window.Cal so the
+    // race condition that produced "Cal is not defined" can't happen.
+    (function (C: any, A: string, L: string) {
+      let p = function (a: any, ar: any) { a.q.push(ar); };
+      let d = C.document;
+      C.Cal = C.Cal || function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api: any = function () { p(api, arguments); };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          if (typeof namespace === "string") {
+            cal.ns[namespace] = cal.ns[namespace] || api;
+            p(cal.ns[namespace], ar);
+            p(cal, ["initNamespace", namespace]);
+          } else {
+            p(cal, ar);
+          }
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://app.cal.com/embed/embed.js", "init");
+
+    // @ts-ignore
+    window.Cal("init", NAMESPACE, { origin: "https://cal.com" });
+    // @ts-ignore
+    window.Cal.ns[NAMESPACE]("inline", {
+      elementOrSelector: "#cal-inline",
+      calLink: siteConfig.calUsername,
+      layout: "month_view",
+      config: { theme: "light" },
+    });
+    // @ts-ignore
+    window.Cal.ns[NAMESPACE]("ui", {
+      hideEventTypeDetails: false,
+      layout: "month_view",
+    });
   }, []);
 
   return (
