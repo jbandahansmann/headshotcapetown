@@ -53,6 +53,11 @@ export function loadCollection(folder: string): any[] {
     .map((f) => matter(fs.readFileSync(path.join(dir, f), "utf8")).data);
 }
 
+export async function renderMarkdownBody(content: string): Promise<string> {
+  const processed = await remark().use(html).process(content);
+  return processed.toString();
+}
+
 export function readMarkdown(relPath: string) {
   const full = path.join(contentDir, relPath);
   if (!fs.existsSync(full)) return null;

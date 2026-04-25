@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { readMarkdown, loadCollection } from "../lib/mdx";
+import { readMarkdown, loadCollection, renderMarkdownBody } from "../lib/mdx";
 import { siteConfig } from "../lib/siteConfig";
 import Header from "./Header";
 import Hero from "./Hero";
@@ -13,12 +13,13 @@ import FinalCTA from "./FinalCTA";
 import Footer from "./Footer";
 import WhatsAppFloat from "./WhatsAppFloat";
 
-function loadService(slug: string) {
-  return readMarkdown(`services/${slug}.md`)?.data as any ?? {};
+function loadService(slug: string): { data: any; content: string } {
+  const result = readMarkdown(`services/${slug}.md`);
+  return { data: (result?.data as any) ?? {}, content: result?.content ?? "" };
 }
 
 export function getServiceMetadata(slug: string): Metadata {
-  const service = loadService(slug);
+  const { data: service } = loadService(slug);
   const url = `${siteConfig.url}/${service.slug}`;
   return {
     title: service.metaTitle,
@@ -41,8 +42,9 @@ export function getServiceMetadata(slug: string): Metadata {
   };
 }
 
-export default function ServicePage({ slug }: { slug: string }) {
-  const service = loadService(slug);
+export default async function ServicePage({ slug }: { slug: string }) {
+  const { data: service, content } = loadService(slug);
+  const bodyHtml = content ? await renderMarkdownBody(content) : "";
   const site = readMarkdown("site.md")?.data as any ?? {};
   const pricing = readMarkdown("pricing.md")?.data as any ?? {};
   const testimonials = loadCollection("testimonials")
@@ -98,6 +100,11 @@ export default function ServicePage({ slug }: { slug: string }) {
       <Hero hero={service.hero} trust={site.trust} />
       <LogoStrip />
       <ServiceIntro intro={service.intro} />
+      {bodyHtml && (
+        <section className="section service-prose">
+          <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+        </section>
+      )}
       <Pricing packages={pricing.packages ?? []} />
       <Process steps={site.process?.steps ?? []} />
       <TestimonialGrid items={testimonials} />
