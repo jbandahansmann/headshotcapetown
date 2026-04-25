@@ -77,6 +77,8 @@ In those seven seconds, the photo answers three questions: do they look like a r
 
 Common red flags people don't realise they're sending. A holiday photo cropped to portrait. A wedding photo with a bit of someone else's shoulder visible. A selfie taken in a car. A heavily filtered photo that no longer looks like the person it represents. A photo that's clearly five to ten years old. None of these are about looking glamorous — they're about looking present, recent, and intentional.
 
+> The job of your LinkedIn photo is to look present, recent, and intentional.
+
 ## Photo specs and exports we deliver
 
 Every LinkedIn portrait session comes back with files sized for the most common uses:
@@ -88,6 +90,8 @@ Every LinkedIn portrait session comes back with files sized for the most common 
 - **Print.** Full resolution, CMYK on request, for board reports and printed materials.
 
 Each image is delivered in colour and B&W. Files come in a private gallery you can download and share with anyone who needs them — your assistant, your firm's marketing person, the conference programme designer.
+
+![LinkedIn-ready team headshot from a corporate shoot in Cape Town, square crop sized for profile photos](/images/uploads/cape-town-headshots-friendly-team-profile.webp)
 
 ## Updating LinkedIn after your shoot
 
@@ -122,6 +126,8 @@ The general wardrobe rules for corporate headshots apply, but a LinkedIn photo h
 **Avoid logos.** Even a small logo on a t-shirt becomes the focal point of a tiny avatar.
 
 **Glasses.** If you wear them every day, keep them on. We can shoot a few without if you want the option. Anti-reflective coating helps a lot.
+
+![LinkedIn profile portrait of an executive in a blue blazer, photographed in Cape Town for use across LinkedIn and About pages](/images/uploads/corporate-headshot-male-executive-blue-blazer-cape-town.webp)
 
 ## Smile, no smile, or both
 

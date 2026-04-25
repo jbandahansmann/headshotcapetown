@@ -65,6 +65,8 @@ The mechanics matter more than the marketing. Here's exactly how a session runs,
 
 The constant in both: tethered shooting. Every frame appears on a large screen within a second. We can compare each person's portrait to the people we've already shot, so the lighting, angle, framing and crop stay identical across every face on your team page.
 
+> The whole team ends up looking like the same set, because it is.
+
 ## Studio or on-site, which is right for your team
 
 Both work. The right call depends on team size, budget, and how disruptive a half-day off can be.
@@ -80,6 +82,8 @@ Both work. The right call depends on team size, budget, and how disruptive a hal
 | Logistics | Simple | Slightly more — door codes, parking, room booking |
 
 A useful pattern: shoot the execs in studio (so we have time to dial in their portraits) and the rest of the team on-site. The setup is identical, so the look matches.
+
+![Team headshot from a corporate group shoot in Cape Town, with consistent lighting and framing across every person](/images/uploads/team-headshot-00007.webp)
 
 ## What we need from your office for an on-site shoot
 
@@ -103,6 +107,8 @@ Why split it. Energy fades. By the time you've had eight people in front of a ca
 Why a half-day a week later for stragglers. There are always two or three people who couldn't be there — sick, on leave, in a client meeting that ran long. A short follow-up session at the end of the week catches them, and we can use the same setup so they look like part of the original team.
 
 For genuine emergencies (someone joins next month, an exec's photo is needed for a conference next week), we keep your team's studio profile on file. Book a 30-minute slot at our studio and we match the look exactly.
+
+![Business consultant headshot from a Cape Town team shoot, framed and lit to match the rest of the team](/images/uploads/business-headshots-consultant-cape-town.webp)
 
 ## Handling latecomers, new joiners and remote staff
 

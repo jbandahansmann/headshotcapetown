@@ -63,6 +63,8 @@ A weak photo costs you the benefit of the doubt. A strong one buys you trust bef
 
 The common ways amateur headshots fail: lighting that flattens or distorts, a crop that's dated by five years, a backdrop that fights for attention, an expression that reads as guarded when you meant approachable. None of these are about the camera. They're about direction, lighting, and craft.
 
+> A weak photo costs you the benefit of the doubt. A strong one buys you trust before the conversation has started.
+
 ## What to expect on the day
 
 You arrive about ten minutes before your slot. Coffee, quick wardrobe check, a brief about what you want the photo to do — LinkedIn, About page, conference bio, all of the above. The lighting is already set up. We don't ask you to wait while we fiddle.
@@ -70,6 +72,8 @@ You arrive about ten minutes before your slot. Coffee, quick wardrobe check, a b
 We shoot tethered to a 27-inch screen. Every frame appears on it within a second. You see what's working. We coach in real time — small adjustments to the chin, the jacket, where you're looking, what your hands are doing. After about ten minutes of shooting we sit at the screen together and pick the selects. You leave knowing exactly what you've got.
 
 Retouching is restrained. Skin, stray hairs, the bit of collar that's gone funny, a distracting shadow on the wall — handled. We don't change the structure of your face or shave years off your appearance. The point is for the image to stop being distracting from you, not to start lying about you.
+
+![Corporate headshot of a male executive in a blue blazer, photographed in our Woodstock studio in Cape Town](/images/uploads/corporate-headshot-male-executive-blue-blazer-cape-town.webp)
 
 ## Wardrobe by industry
 
@@ -94,6 +98,8 @@ The studio is in the Saltcircle Building on Kent Street in Woodstock — three m
 For execs short on time, on-location is usually the right call. We bring a full studio kit and set up in a meeting room or quiet office corner. Setup takes 30 to 45 minutes; the shoot itself is the same length as in studio. We've shot in offices across the metro — the City Bowl, Sea Point, Century City, Tygervalley, Stellenbosch, Somerset West, Bellville. The R4,500 setup fee covers travel within greater Cape Town.
 
 Outside the metro — Hermanus, Paarl, Franschhoek — we quote travel separately. The rate is fair and we'll be honest about whether it makes sense for one or two people, or whether to wait until you have a small group.
+
+![Corporate headshot of a financial advisor in Cape Town, lit for a credible, current, professional look](/images/uploads/financial-advisor-headshot-cape-town.webp)
 
 ## Industries we work in
 
