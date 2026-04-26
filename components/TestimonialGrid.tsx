@@ -10,7 +10,7 @@ export default function TestimonialGrid({ items }: { items: any[] }) {
             <p style={{ fontFamily: "var(--serif)", fontSize: "clamp(18px, 2vw, 22px)", lineHeight: 1.3 }}>"{t.quote}"</p>
             <div style={{ marginTop: "auto", paddingTop: 20, borderTop: "1px solid #02135319" }}>
               <div style={{ fontSize: 14, fontWeight: 600 }}>{t.author}</div>
-              <div className="eyebrow" style={{ marginTop: 4 }}>{t.role}{t.company ? `, ${t.company}` : ""}</div>
+              <div className="eyebrow" style={{ marginTop: 4 }}>{[t.role, t.company].filter(Boolean).join(", ")}</div>
             </div>
           </div>
         ))}

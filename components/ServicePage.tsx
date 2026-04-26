@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import LogoStrip from "./LogoStrip";
 import Pricing from "./Pricing";
 import Process from "./Process";
+import Testimonial from "./Testimonial";
 import TestimonialGrid from "./TestimonialGrid";
 import FAQ from "./FAQ";
 import Booking from "./Booking";
@@ -47,9 +48,14 @@ export default async function ServicePage({ slug }: { slug: string }) {
   const bodyHtml = content ? await renderMarkdownBody(content) : "";
   const site = readMarkdown("site.md")?.data as any ?? {};
   const pricing = readMarkdown("pricing.md")?.data as any ?? {};
-  const testimonials = loadCollection("testimonials")
-    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
-    .filter((t) => !t.featured)
+  const pageTag = slug.split("-")[0]; // corporate / team / linkedin
+  const allTestimonials = loadCollection("testimonials")
+    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+  const featuredTestimonial = allTestimonials.find(
+    (t) => Array.isArray(t.featuredOn) && t.featuredOn.includes(pageTag)
+  );
+  const testimonials = allTestimonials
+    .filter((t) => Array.isArray(t.pages) && t.pages.includes(pageTag))
     .slice(0, 3);
 
   const url = `${siteConfig.url}/${service.slug}`;
@@ -107,6 +113,7 @@ export default async function ServicePage({ slug }: { slug: string }) {
       )}
       <Pricing packages={pricing.packages ?? []} />
       <Process steps={site.process?.steps ?? []} />
+      {featuredTestimonial && <Testimonial t={featuredTestimonial} />}
       <TestimonialGrid items={testimonials} />
       <FAQ items={service.faqs ?? []} />
       <Booking />

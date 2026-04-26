@@ -20,9 +20,9 @@ import WhatsAppFloat from "../components/WhatsAppFloat";
 export default async function Home() {
   const site = readMarkdown("site.md")?.data ?? {};
   const pricing = readMarkdown("pricing.md")?.data ?? {};
-  const testimonials = loadCollection("testimonials").sort((a: any, b: any) => a.order - b.order);
-  const featured = testimonials.find((t: any) => t.featured);
-  const others = testimonials.filter((t: any) => !t.featured).slice(0, 3);
+  const testimonials = loadCollection("testimonials").sort((a: any, b: any) => (a.order ?? 0) - (b.order ?? 0));
+  const featured = testimonials.find((t: any) => Array.isArray(t.featuredOn) && t.featuredOn.includes("homepage"));
+  const others = testimonials.filter((t: any) => Array.isArray(t.pages) && t.pages.includes("homepage")).slice(0, 3);
   const journal = (await getAllJournalPosts()).slice(0, 3);
 
   return (

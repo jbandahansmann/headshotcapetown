@@ -11,7 +11,7 @@ export default function Testimonial({ t }: { t: any }) {
         <div className="placeholder" style={{ aspectRatio: "4/5", minHeight: 260 }}>Testimonial portrait — upload via CMS</div>
       )}
       <div>
-        <div className="eyebrow section-tag">Testimonial · {t.author}, {t.role}{t.company ? `, ${t.company}` : ""}</div>
+        <div className="eyebrow section-tag">Testimonial · {[t.author, t.role, t.company].filter(Boolean).join(", ")}</div>
         <blockquote style={{ fontFamily: "var(--serif)", fontSize: "clamp(22px, 3.4vw, 40px)", fontWeight: 400, letterSpacing: "-0.015em", lineHeight: 1.2, marginTop: 24 }}>
           "{t.quote}"
         </blockquote>
