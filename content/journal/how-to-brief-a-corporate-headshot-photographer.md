@@ -5,6 +5,7 @@ tag: "Process"
 readTime: "8 min read"
 date: "2026-04-15"
 excerpt: "What to send, what to ask, what to expect. The brief that gets you a tighter quote, a smoother shoot day, and headshots that fit what you actually need."
+cover: "/images/uploads/corporate-headshot-cape-town-briefing.webp"
 ---
 
 If you've been asked to organise corporate headshots for a team and you've never done it before, the experience can feel disorienting. There's a lot of jargon, photographers quote in different ways, and it's hard to know whether what you're being offered is good value, or even what you actually need.
@@ -53,6 +54,8 @@ Once a quote arrives, four things are worth checking before you accept.
 
 **What happens if you don't like a portrait.** Tethered shooting (the photographer's screen showing each image as we shoot) means you should be able to approve frames in real time. If a quote doesn't include tethered shooting, ask why. If a portrait doesn't land in retouching, what's the reshoot policy? Ours is no charge if the issue is something we should have caught.
 
+![Cape Town corporate headshot photographer preparing equipment before a tethered shoot](/images/uploads/headshot-photographer-cape-town-prep.webp)
+
 ## Day-of expectations
 
 Once the shoot is booked, here's what to expect on the day, so you can brief your team accordingly.
@@ -74,6 +77,8 @@ One of the underrated decisions in a corporate headshot shoot is who approves ea
 **The decision maker is remote.** When a senior stakeholder can't attend in person, we set up a secure online gallery link they can access during or after the shoot. They review on their own time, approve the selects, and we move to retouching once their feedback is in. Slightly slower than in-room approval but still avoids the worst-case scenario of a long approval chain spread over weeks.
 
 Whatever pattern you choose, agree on it before the shoot. The most common cause of delays after a corporate headshot project is a multi-layered approval chain that wasn't planned for.
+
+![Corporate headshot session in Cape Town with the tethered preview screen showing the live frame](/images/uploads/corporate-headshot-photography-cape-town-process.webp)
 
 ## Common briefing mistakes that cost money
 
