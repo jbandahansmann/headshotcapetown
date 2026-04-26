@@ -11,7 +11,7 @@ export const siteConfig = {
   whatsappNumber: process.env.NEXT_PUBLIC_WA_NUMBER || "27789190454",
   calUsername: process.env.NEXT_PUBLIC_CAL_USERNAME || "jurgen-banda-hansmann/15min",
   formEndpoint: process.env.NEXT_PUBLIC_FORM_ENDPOINT || "/api/enquiry",
-  ga: process.env.NEXT_PUBLIC_GA_ID || "",
+  ga: process.env.NEXT_PUBLIC_GA_ID || "G-5EGZ4N9PFW",
   studio: {
     name: "Saltcircle Building",
     street: "19 Kent Street",
