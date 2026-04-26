@@ -483,6 +483,9 @@ A pipe table in a service-page markdown body rendered as literal `| Studio | On-
 ### 10.17 — Faded inline images from `opacity` on parent paragraph
 An inline image in the service-prose section rendered visibly faded compared to the same image opened directly in a new tab. Cause: markdown wraps standalone images in `<p>` tags, and `.service-prose p` had `opacity: 0.85` for body-text fading. Opacity cascades to the entire rendered subtree, so the image inherited the fade. **Never use `opacity` on a container that holds non-text content. Use `color: rgba(R, G, B, A)` for text colour, `border-color: rgba(...)` for borders.** The CSS opacity property is a compositing operation, not a property that applies only to text.
 
+### 10.18 — `images.unoptimized` flag silently disabling next/image
+`next.config.mjs` had `images: { unoptimized: true }` left over from an earlier static-export configuration. Symptom: `<Image>` components rendered correctly but the browser fetched the original source file at full resolution — a 1441x1800 hero image was served to mobile devices, pushing LCP to 4.1s. **Audit `next.config.mjs` early. If `output: 'export'` is gone, `images.unoptimized` should be too.** Vercel's runtime image optimisation is free and the Day 1 default for any non-static-export Next.js project on Vercel.
+
 ---
 
 ## 11. Editing workflow after launch
