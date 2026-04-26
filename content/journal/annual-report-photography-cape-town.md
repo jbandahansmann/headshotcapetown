@@ -5,6 +5,7 @@ tag: "Planning"
 readTime: "6 min read"
 date: "2026-02-20"
 excerpt: "When to schedule your annual report photo shoots, what brief to send, and how to back-schedule from a print or website launch deadline."
+cover: "/images/uploads/annual-report-photography-cape-town.jpg"
 ---
 
 Annual reports are usually planned six to nine months in advance, but the photography component often gets squeezed into the final four weeks. By the time the report's narrative is finalised, the photo budget is locked, and the shoot date is two weeks before print, there's no room for the small things that make annual report photography work well.
@@ -44,6 +45,8 @@ Different reports have different photography needs. The most common bundle is:
 
 For most Cape Town businesses producing an annual report, the leadership and board portraits are the photography component, and everything else is reused from existing assets.
 
+![Leadership portrait shot in Cape Town for an annual report cover](/images/uploads/leadership-portrait-cape-town-annual-report.webp)
+
 ## How to brief for annual report photography
 
 The brief for annual report photography is more specific than for general corporate headshots. The photographer needs to know:
@@ -73,6 +76,8 @@ For a Cape Town company with an annual report going to print on 15 March:
 
 This is a comfortable timeline. Compress it and the slack disappears. The most common mistake is to assume retouching takes a few days. For board and exec portraits with multiple approval layers, retouching plus approvals is typically two to three weeks.
 
+![Executive headshot taken in Cape Town for a board portrait series in an annual report](/images/uploads/executive-headshot-cape-town-board-portrait.webp)
+
 ## What to budget
 
 For a typical Cape Town annual report with leadership and board portraits, the photography line item runs:
@@ -96,6 +101,8 @@ Five things to avoid.
 **Skipping the approval workflow conversation.** Every layer of approval adds days. If three executives need to sign off on each board portrait, that's not the same as one CEO approving the whole set.
 
 **Reusing last year's photos for executives who haven't changed.** It's tempting and it usually shows. A 12-month-old portrait next to a fresh portrait reads as inconsistent. Either reshoot the whole leadership team or use last year's set entirely.
+
+![Cape Town annual report photographer working with an executive in studio](/images/uploads/cape-town-annual-report-photographer-studio.webp)
 
 ## Where to next
 
