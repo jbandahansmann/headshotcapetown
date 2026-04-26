@@ -5,6 +5,7 @@ tag: "Process"
 readTime: "9 min read"
 date: "2026-03-15"
 excerpt: "When studio wins, when on-site wins, and the hybrid pattern that gets the best of both. Plus what we actually set up at your office and how the costs compare."
+cover: "/images/uploads/cape-town-headshot-studio-woodstock-interior.webp"
 ---
 
 For team headshots, the first practical question is almost always: studio or on-site? The answer drives cost, schedule, and the disruption to your team. It also drives the look of the final images, in subtle ways most people don't realise until afterwards.
@@ -37,6 +38,8 @@ Studio is the right answer when:
 - Multiple wardrobe changes per person are part of the brief (the studio is set up for this, on-site is harder).
 
 Our studio is at 401 Saltcircle Building, 19 Kent Street, Woodstock. Three minutes off the N1, parking on-site, easy access from the City Bowl, the Atlantic Seaboard, and the Northern Suburbs.
+
+![Studio headshot lighting setup in the Cape Town Woodstock studio](/images/uploads/studio-headshot-lighting-setup-cape-town.webp)
 
 ## When on-site wins
 
@@ -107,6 +110,8 @@ For context, here's what a 25 person on-site shoot looks like end-to-end.
 **13:30** Out of the building.
 
 Total time on-site: 5 hours. Disruption to the team's actual work: 10 to 15 minutes per person. Most of the team goes back to their desk and forgets the photographer was even there.
+
+![Team member having a studio portrait taken during a Cape Town team headshot session](/images/uploads/studio-team-portrait-cape-town-session.webp)
 
 ## Common challenges and how we solve them
 
