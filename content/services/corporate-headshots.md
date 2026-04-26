@@ -12,7 +12,7 @@ hero:
   body: Studio in Woodstock and on-location across the metro. Tethered shooting so you see what's working, frame by frame. Two retouched images you'll actually use, in 48 hours.
   primary_cta: Request a quote
   secondary_cta: WhatsApp 078 919 0454
-  portrait: /images/uploads/business-headshots-consultant-cape-town.webp
+  portrait: /images/uploads/individual-headshot-photography-woodstock.webp
 intro:
   eyebrow: Approach
   heading: For executives, founders, and professionals whose portrait has to do real work.
@@ -73,7 +73,7 @@ We shoot tethered to a 27-inch screen. Every frame appears on it within a second
 
 Retouching is restrained. Skin, stray hairs, the bit of collar that's gone funny, a distracting shadow on the wall — handled. We don't change the structure of your face or shave years off your appearance. The point is for the image to stop being distracting from you, not to start lying about you.
 
-![Corporate headshot of a male executive in a blue blazer, photographed in our Woodstock studio in Cape Town](/images/uploads/corporate-headshot-male-executive-blue-blazer-cape-town.webp)
+![Corporate headshot of a Cape Town professional, photographed in our Woodstock studio](/images/uploads/corporate-headshot-cape-town.webp)
 
 ## Wardrobe by industry
 
@@ -99,7 +99,7 @@ For execs short on time, on-location is usually the right call. We bring a full 
 
 Outside the metro — Hermanus, Paarl, Franschhoek — we quote travel separately. The rate is fair and we'll be honest about whether it makes sense for one or two people, or whether to wait until you have a small group.
 
-![Corporate headshot of a financial advisor in Cape Town, lit for a credible, current, professional look](/images/uploads/financial-advisor-headshot-cape-town.webp)
+![Corporate studio headshot of a Cape Town professional, lit for a credible, polished look](/images/uploads/corporate-studio-headshot-cape-town.webp)
 
 ## Industries we work in
 
