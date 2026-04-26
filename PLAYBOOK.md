@@ -486,6 +486,9 @@ An inline image in the service-prose section rendered visibly faded compared to 
 ### 10.18 — `images.unoptimized` flag silently disabling next/image
 `next.config.mjs` had `images: { unoptimized: true }` left over from an earlier static-export configuration. Symptom: `<Image>` components rendered correctly but the browser fetched the original source file at full resolution — a 1441x1800 hero image was served to mobile devices, pushing LCP to 4.1s. **Audit `next.config.mjs` early. If `output: 'export'` is gone, `images.unoptimized` should be too.** Vercel's runtime image optimisation is free and the Day 1 default for any non-static-export Next.js project on Vercel.
 
+### 10.19 — Markdown body images bypassing next/image
+Inline images written as `![alt](src)` in markdown body content render as plain `<img>` from remark-html and **do not** go through Vercel image optimisation. Symptom: PSI flags inline images at full source resolution while the hero (which uses `<Image>`) is fine. **From Day 1, render markdown body via a `MarkdownBody` server component** that processes markdown to HTML, then parses with `html-react-parser` to swap `<img>` for `<Image>` with dimensions read from disk via `image-size`. Required deps: `html-react-parser`, `image-size`. Apply the same component to journal post bodies — same problem there.
+
 ---
 
 ## 11. Editing workflow after launch
