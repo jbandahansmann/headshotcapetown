@@ -480,6 +480,9 @@ Three journal markdown files referenced `/images/journal/{name}.jpg` which didn'
 ### 10.16 — Markdown tables rendering as raw text
 A pipe table in a service-page markdown body rendered as literal `| Studio | On-site |` text on the live page. Cause: `remark` + `remark-html` only handle CommonMark; GitHub-flavoured features (pipe tables, strikethrough, task lists, autolinks) require `remark-gfm`. **Install `remark-gfm` and add `.use(remarkGfm)` to the pipeline in both `renderMarkdownBody` and `getJournalPost`.** Without it, markdown body content silently loses any GFM-only feature.
 
+### 10.17 — Faded inline images from `opacity` on parent paragraph
+An inline image in the service-prose section rendered visibly faded compared to the same image opened directly in a new tab. Cause: markdown wraps standalone images in `<p>` tags, and `.service-prose p` had `opacity: 0.85` for body-text fading. Opacity cascades to the entire rendered subtree, so the image inherited the fade. **Never use `opacity` on a container that holds non-text content. Use `color: rgba(R, G, B, A)` for text colour, `border-color: rgba(...)` for borders.** The CSS opacity property is a compositing operation, not a property that applies only to text.
+
 ---
 
 ## 11. Editing workflow after launch
