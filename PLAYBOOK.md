@@ -477,6 +477,9 @@ Footer linked to `/corporate-headshots-cape-town` etc. before the pages existed.
 ### 10.15 — Journal cover images referenced but missing
 Three journal markdown files referenced `/images/journal/{name}.jpg` which didn't exist. Three 404s on every journal page load. **If a frontmatter `cover:` is set, the image must exist. If unsure, leave the field out and let the placeholder render.**
 
+### 10.16 — Markdown tables rendering as raw text
+A pipe table in a service-page markdown body rendered as literal `| Studio | On-site |` text on the live page. Cause: `remark` + `remark-html` only handle CommonMark; GitHub-flavoured features (pipe tables, strikethrough, task lists, autolinks) require `remark-gfm`. **Install `remark-gfm` and add `.use(remarkGfm)` to the pipeline in both `renderMarkdownBody` and `getJournalPost`.** Without it, markdown body content silently loses any GFM-only feature.
+
 ---
 
 ## 11. Editing workflow after launch
