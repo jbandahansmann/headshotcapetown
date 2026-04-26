@@ -5,6 +5,7 @@ tag: "Pricing"
 readTime: "5 min read"
 date: "2026-04-20"
 excerpt: "Why team headshot rates drop as the group grows, and how to think about budget for a 10, 30, or 60 person shoot in Cape Town."
+cover: "/images/uploads/corporate-team-headshot-cape-town-group.webp"
 ---
 
 The most common pricing question we get from HR managers and marketing leads is some version of, "What's the rate per head for a team of [number]?" The answer changes meaningfully as the group size grows, and the reasons are worth understanding before you brief us or any other photographer.
@@ -18,6 +19,8 @@ Individual headshot sessions are paid for time and craft. A 30 minute Essential 
 Team sessions work differently. The setup happens once. The lighting stays. The backdrop stays. Each person gets a smaller slice of dedicated time, but the consistency across people is the value, not the per-person depth.
 
 That economic structure is why the per-head rate drops as volume kicks in. We charge R1,250 per head for groups of one to five in studio. From six people, the rate drops to R750. The R500 difference per head reflects the fact that a six-person team uses the same studio setup and direction as a single person, just for longer.
+
+![Cape Town business team portraits with consistent studio lighting and framing across each person](/images/uploads/cape-town-business-team-portraits.webp)
 
 ## The real pricing tiers
 
@@ -44,6 +47,8 @@ Inclusive. No hidden costs. Each person gets two retouched images in colour and 
 The same 30 person shoot in studio (assuming everyone can come to Woodstock) would cost the same: 30 x R750 = R22,500. The only difference is that in studio you don't pay setup, but neither do you for an on-site group of 15 or more.
 
 A 14 person on-site shoot, by contrast, hits a small inversion. 14 x R750 = R10,500, plus R4,500 setup = R15,000. A 15 person on-site shoot is just 15 x R750 = R11,250. Adding a 15th person saves the company R3,750. Worth knowing if your team is right at the edge.
+
+![Staff team headshot taken in Cape Town for a corporate website](/images/uploads/team-headshot-staff-cape-town.webp)
 
 ## What changes for groups of 31 or more
 

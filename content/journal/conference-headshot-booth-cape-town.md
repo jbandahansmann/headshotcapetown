@@ -5,6 +5,7 @@ tag: "Events"
 readTime: "6 min read"
 date: "2026-04-22"
 excerpt: "How to plan a portrait booth at your conference: what we bring, scheduling, delegate flow, and what 130 portraits in a day actually looks like."
+cover: "/images/uploads/cape-town-conference-headshot-portraits.webp"
 ---
 
 If you're organising a corporate conference in Cape Town and you're considering offering professional headshots to delegates as part of the programme, this guide is for you. The headshot booth is one of the more reliable additions to a conference offering. It's a small, contained service that delegates remember. Done well, it can also generate hundreds of usable portraits for your sponsoring organisation.
@@ -29,6 +30,8 @@ The conference setup is intentionally minimal. We bring:
 That's enough to produce sharp, well-lit corporate portraits in a conference setting. Setup takes about an hour. Pack-down is 30 minutes. The full footprint is roughly 4 by 4 metres, which fits comfortably in most conference foyers and registration areas.
 
 For delivery, we set up a secure online gallery for the sponsoring organisation. Delegates access their portraits via a single link, sorted by name or delegate ID, and download what they need.
+
+![Corporate conference portrait booth in Cape Town with studio lighting set up at a delegate registration area](/images/uploads/corporate-conference-photographer-cape-town.webp)
 
 ## Realistic delegate flow
 
@@ -57,6 +60,8 @@ Three placement options that work, and one that doesn't.
 **In a quiet side room.** A dedicated room takes the booth out of the main flow. Lower volume but each portrait gets more attention, and delegates feel less rushed. Best for premium format and executive forums.
 
 **What doesn't work: the lobby outside the plenary hall.** Sounds like a good idea (everyone passes through it), but in practice the lighting bounces off the conference building's marble or glass surfaces and creates inconsistent skin tones across portraits. We'd rather pick a more contained space and let delegates walk to it.
+
+![Conference delegate having their headshot taken at a Cape Town corporate event](/images/uploads/conference-delegate-headshot-cape-town.webp)
 
 ## Pricing for conference booths
 
