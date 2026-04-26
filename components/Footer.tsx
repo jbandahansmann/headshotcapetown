@@ -6,8 +6,13 @@ export default function Footer() {
     <footer style={{ background: "var(--midnight)", color: "var(--paper)", padding: "clamp(48px, 7vw, 64px) var(--gutter) 36px" }}>
       <div className="footer-grid">
         <div>
-          <div style={{ fontFamily: "var(--serif)", fontSize: "clamp(22px, 2.6vw, 26px)" }}>
-            Headshot <span style={{ fontStyle: "italic" }}>Cape Town</span>
+          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <svg viewBox="0 0 240 80" aria-hidden="true" focusable="false" style={{ height: 28, width: "auto", flexShrink: 0 }}>
+              <text x="120" y="60" fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif" fontSize="68" fontWeight="700" fill="#ffffff" textAnchor="middle" letterSpacing="-2">h·ct</text>
+            </svg>
+            <span style={{ fontSize: "clamp(20px, 2.4vw, 24px)", fontWeight: 500, letterSpacing: "-0.01em" }}>
+              Headshot Cape Town
+            </span>
           </div>
           <p style={{ fontSize: 14, opacity: 0.65, marginTop: 20, maxWidth: 320, lineHeight: 1.6 }}>
             Corporate headshot photography by Jürgen Banda-Hansmann. Studio in Woodstock, on-location across Cape Town.

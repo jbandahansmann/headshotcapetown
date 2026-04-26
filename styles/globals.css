@@ -313,11 +313,27 @@ body { padding-bottom: 88px; }
   gap: clamp(16px, 3vw, 32px);
 }
 .site-logo {
-  font-family: var(--serif);
-  font-size: clamp(18px, 3vw, 22px);
-  color: var(--midnight);
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 1.4vw, 14px);
   text-decoration: none;
+  color: var(--midnight);
   white-space: nowrap;
+}
+.logo-mark {
+  height: clamp(18px, 2.4vw, 22px);
+  width: auto;
+  flex-shrink: 0;
+}
+.logo-wordmark {
+  font-family: var(--sans);
+  font-size: clamp(15px, 2vw, 18px);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--midnight);
+}
+@media (max-width: 480px) {
+  .logo-wordmark { display: none; }
 }
 .site-nav {
   display: flex;
