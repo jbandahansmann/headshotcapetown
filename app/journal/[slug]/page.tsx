@@ -36,7 +36,7 @@ export default async function JournalPost({ params }: { params: { slug: string }
     <main>
       <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <article style={{ maxWidth: 760, margin: "0 auto", padding: "clamp(48px, 7vw, 80px) clamp(20px, 5vw, 32px) clamp(64px, 10vw, 120px)" }}>
+      <article style={{ maxWidth: 760, margin: "0 auto", padding: "clamp(48px, 7vw, 80px) clamp(28px, 6vw, 40px) clamp(64px, 10vw, 120px)" }}>
         <Link href="/journal" style={{ fontFamily: "var(--mono)", fontSize: 12, letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--bluegrey)", textDecoration: "none" }}>← All articles</Link>
         <div className="eyebrow" style={{ marginTop: 32 }}>{post.tag} · {post.readTime}</div>
         <h1 className="headline headline-l" style={{ marginTop: 16 }}>{post.title}</h1>

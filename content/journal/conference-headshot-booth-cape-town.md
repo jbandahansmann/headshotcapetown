@@ -2,9 +2,9 @@
 title: "Conference headshot booths: setting up a portrait corner at your Cape Town event"
 slug: "conference-headshot-booth-cape-town"
 tag: "Events"
-readTime: "7 min read"
+readTime: "6 min read"
 date: "2026-04-22"
-excerpt: "How to plan a portrait booth at your conference: equipment, scheduling, delegate flow, and what 120 portraits in a day actually looks like."
+excerpt: "How to plan a portrait booth at your conference: what we bring, scheduling, delegate flow, and what 130 portraits in a day actually looks like."
 ---
 
 If you're organising a corporate conference in Cape Town and you're considering offering professional headshots to delegates as part of the programme, this guide is for you. The headshot booth is one of the more reliable additions to a conference offering. It's a small, contained service that delegates remember. Done well, it can also generate hundreds of usable portraits for your sponsoring organisation.
@@ -17,18 +17,25 @@ Conference programming is dense. Delegates spend their day in plenary sessions, 
 
 For the sponsoring organisation, the booth produces a portrait library you can use across the year: speaker bios for next year's programme, social posts about delegates you want to spotlight, internal team photos for staff who attended.
 
-## What we set up
+## What we bring
 
-The conference booth is essentially a compact studio. We set up:
+The conference setup is intentionally minimal. We bring:
 
-- Two studio strobes with softboxes
-- A 3-metre paper backdrop (typically white or your event brand colour)
-- A 27-inch tethered screen so delegates can see and approve their photo on the spot
-- A small posing platform
-- Signage explaining the booth and the queue protocol
-- A delivery system so each delegate's email goes directly to their selected portrait
+- Two studio strobes with softboxes for consistent lighting
+- A neutral backdrop in white or grey
+- The camera and a few lenses
 
-Setup takes about an hour. Pack-down is 30 minutes. The full footprint is 4 by 4 metres, which fits comfortably in most conference foyers and registration areas.
+That's enough to produce sharp, well-lit corporate portraits in a conference setting. Setup takes about an hour. Pack-down is 30 minutes. The full footprint is roughly 4 by 4 metres, which fits comfortably in most conference foyers and registration areas.
+
+A few things we don't currently offer as standard at conference booths, but that are worth knowing about if you're planning a more premium delegate experience:
+
+- On-screen tethered preview so delegates can review and approve frames on the spot
+- Custom-branded backdrops in your event colours (we work with white or grey only)
+- A posing platform for height consistency across portraits
+- Branded signage at the booth
+- Per-delegate email delivery sending each person their portrait directly
+
+These elements turn a basic photography booth into a more polished, branded delegate experience. They're services we may build out in future, and for high-budget conferences they're worth discussing with the photographer in advance. Right now we deliver via a single shared gallery to the sponsoring organisation, who can distribute to delegates.
 
 ## Realistic delegate flow
 
@@ -38,9 +45,9 @@ The answer depends on what level of attention each delegate gets. Three formats:
 
 **Express format, 60-second slot.** A single frame, lit and ready, no direction beyond "look at the camera, half-smile". Good for corporate event programmes where the goal is "everyone has a current LinkedIn photo by the end of the day, and we don't have time for full sessions". Throughput: roughly 60 portraits per hour, 240 portraits in a 4-hour booth window.
 
-**Standard format, 3-minute slot.** A few frames, light direction (chin angle, where to look, what to do with hands), one or two selects approved at the screen. Good for most professional conferences. Throughput: roughly 18 portraits per hour, 72 portraits in a 4-hour window.
+**Standard format, 3-minute slot.** A few frames per delegate, light direction (chin angle, where to look, what to do with hands), the photographer selects the strongest frame for retouching. Good for most professional conferences. Throughput: roughly 18 portraits per hour, 72 portraits in a 4-hour window.
 
-**Premium format, 8-minute slot.** A proper short session with a few outfit options, multiple frames, on-screen selection, briefer wardrobe direction. Good for executive forums or smaller premium events. Throughput: roughly 7 portraits per hour, 28 in a 4-hour window.
+**Premium format, 8-minute slot.** A proper short session with multiple frames, possibly an outfit change, and several frames retouched per delegate. Good for executive forums or smaller premium events. Throughput: roughly 7 portraits per hour, 28 in a 4-hour window.
 
 For most Cape Town corporate conferences with 100 to 250 delegates, the standard format hits the sweet spot. Most conferences run two booth blocks per day (morning and afternoon), giving you 140 portraits across the day at standard pace.
 
@@ -58,39 +65,28 @@ Three placement options that work, and one that doesn't.
 
 **What doesn't work: the lobby outside the plenary hall.** Sounds like a good idea (everyone passes through it), but in practice the lighting bounces off the conference building's marble or glass surfaces and creates inconsistent skin tones across portraits. We'd rather pick a more contained space and let delegates walk to it.
 
-## Branding and customisation
-
-For event organisers who want the booth to feel branded:
-
-- Backdrop colour can match your event branding (we carry white, grey, navy, charcoal, and one custom colour with two weeks notice).
-- The on-screen interface delegates see when selecting their portrait can include your event logo.
-- The delivery email each delegate receives can be branded as coming from the event, with a short message and your sponsorship credits.
-- The booth can include a printed sign explaining the format, in your event's design language.
-
-Custom backdrop production for branded events: roughly R1,800 to R3,500 depending on size and material. Lead time two weeks.
-
 ## Pricing for conference booths
 
-We quote conference booths as a half-day or full-day rate, not per portrait. Full-day (8 hours including setup and pack-down): R18,000. Half-day (4 hours including setup and pack-down): R10,500. Includes:
+We quote conference booths as a half-day or full-day rate, not per portrait.
 
-- The full booth setup
-- Professional retouching of every selected portrait
-- Individual delivery to each delegate's email address
-- Basic event branding on the delivery
-- A shared gallery for the sponsoring organisation
+- Full-day (8 hours including setup and pack-down): R18,000.
+- Half-day (4 hours including setup and pack-down): R10,500.
 
-Custom backdrop, advanced branding, on-the-day printing for delegates to take a print home, or coverage of multi-day events all get quoted separately.
+The rate includes the full booth setup, professional retouching of the selected portraits, and a shared gallery for the sponsoring organisation that delegates can access to download their images.
+
+Multi-day events, advanced branding, on-the-day printing for delegates, and other custom requirements get quoted separately based on scope.
 
 ## What delegates take home
 
-Each delegate walks away with:
+Delegates download their portraits from a shared gallery (link sent to the sponsoring organisation, who passes it on). Each delegate's images are sorted by name or by the order in which they were photographed.
+
+Each delegate can download:
 
 - One retouched portrait, web-sized for LinkedIn
 - A high-resolution version for their company's About page
-- Black and white version
-- A simple email link with all three formats
+- A black and white version
 
-Delivery is within 5 working days. For multi-day conferences we can do same-day delivery for a 30% premium.
+Delivery is within 5 working days. For multi-day conferences, same-day delivery is available at a 30% premium.
 
 ## Common mistakes
 
@@ -100,7 +96,7 @@ Three things that cause friction at conference booths and how to avoid them.
 
 **Not briefing delegates in advance.** A delegate arrives at the booth in a polo shirt and a lanyard, having had no idea this was an option, and now they're frustrated because they wanted to use the photo but they're not dressed for it. Send a one-line note in the pre-event email: "We have a professional headshot booth available during coffee breaks. Wear what you'd want on LinkedIn."
 
-**Forgetting about lanyards and badges.** Almost every delegate at a conference is wearing a name badge. Most of those badges are not flattering on a corporate headshot. We always ask delegates to remove them, but a sign at the booth makes it easier.
+**Forgetting about lanyards and badges.** Almost every delegate at a conference is wearing a name badge. Most of those badges are not flattering on a corporate headshot. We always ask delegates to remove them before stepping in front of the camera.
 
 ## When a conference booth is worth it
 
