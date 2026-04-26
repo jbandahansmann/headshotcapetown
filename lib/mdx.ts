@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkGfm from "remark-gfm";
 import html from "remark-html";
 
 const contentDir = path.join(process.cwd(), "content");
@@ -26,7 +27,7 @@ export function getJournalSlugs(): string[] {
 export async function getJournalPost(slug: string): Promise<JournalPost> {
   const file = fs.readFileSync(path.join(contentDir, "journal", `${slug}.md`), "utf8");
   const { data, content } = matter(file);
-  const processed = await remark().use(html).process(content);
+  const processed = await remark().use(remarkGfm).use(html).process(content);
   return {
     slug,
     title: data.title,
@@ -54,7 +55,7 @@ export function loadCollection(folder: string): any[] {
 }
 
 export async function renderMarkdownBody(content: string): Promise<string> {
-  const processed = await remark().use(html).process(content);
+  const processed = await remark().use(remarkGfm).use(html).process(content);
   return processed.toString();
 }
 
