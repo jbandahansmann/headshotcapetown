@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { readMarkdown, loadCollection, renderMarkdownBody } from "../lib/mdx";
+import { readMarkdown, loadCollection } from "../lib/mdx";
+import MarkdownBody from "./MarkdownBody";
 import { siteConfig } from "../lib/siteConfig";
 import Header from "./Header";
 import Hero from "./Hero";
@@ -45,7 +46,6 @@ export function getServiceMetadata(slug: string): Metadata {
 
 export default async function ServicePage({ slug }: { slug: string }) {
   const { data: service, content } = loadService(slug);
-  const bodyHtml = content ? await renderMarkdownBody(content) : "";
   const site = readMarkdown("site.md")?.data as any ?? {};
   const pricing = readMarkdown("pricing.md")?.data as any ?? {};
   const pageTag = slug.split("-")[0]; // corporate / team / linkedin
@@ -106,9 +106,11 @@ export default async function ServicePage({ slug }: { slug: string }) {
       <Hero hero={service.hero} trust={site.trust} />
       <LogoStrip />
       <ServiceIntro intro={service.intro} />
-      {bodyHtml && (
+      {content && (
         <section className="section service-prose">
-          <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+          <div>
+            <MarkdownBody content={content} />
+          </div>
         </section>
       )}
       <Pricing packages={pricing.packages ?? []} />

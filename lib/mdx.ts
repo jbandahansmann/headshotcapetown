@@ -1,9 +1,6 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { remark } from "remark";
-import remarkGfm from "remark-gfm";
-import html from "remark-html";
 
 const contentDir = path.join(process.cwd(), "content");
 
@@ -15,7 +12,7 @@ export type JournalPost = {
   readTime: string;
   date: string;
   cover?: string;
-  contentHtml: string;
+  content: string;
 };
 
 export function getJournalSlugs(): string[] {
@@ -27,7 +24,6 @@ export function getJournalSlugs(): string[] {
 export async function getJournalPost(slug: string): Promise<JournalPost> {
   const file = fs.readFileSync(path.join(contentDir, "journal", `${slug}.md`), "utf8");
   const { data, content } = matter(file);
-  const processed = await remark().use(remarkGfm).use(html).process(content);
   return {
     slug,
     title: data.title,
@@ -36,7 +32,7 @@ export async function getJournalPost(slug: string): Promise<JournalPost> {
     readTime: data.readTime,
     date: data.date,
     cover: data.cover,
-    contentHtml: processed.toString(),
+    content,
   };
 }
 
@@ -52,11 +48,6 @@ export function loadCollection(folder: string): any[] {
   return fs.readdirSync(dir)
     .filter((f) => f.endsWith(".md"))
     .map((f) => matter(fs.readFileSync(path.join(dir, f), "utf8")).data);
-}
-
-export async function renderMarkdownBody(content: string): Promise<string> {
-  const processed = await remark().use(remarkGfm).use(html).process(content);
-  return processed.toString();
 }
 
 export function readMarkdown(relPath: string) {

@@ -1,6 +1,7 @@
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import WhatsAppFloat from "../../../components/WhatsAppFloat";
+import MarkdownBody from "../../../components/MarkdownBody";
 import { getJournalSlugs, getJournalPost } from "../../../lib/mdx";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -40,8 +41,9 @@ export default async function JournalPost({ params }: { params: { slug: string }
         <div className="eyebrow" style={{ marginTop: 32 }}>{post.tag} · {post.readTime}</div>
         <h1 className="headline headline-l" style={{ marginTop: 16 }}>{post.title}</h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 20px)", opacity: 0.75, marginTop: 24, lineHeight: 1.5 }}>{post.excerpt}</p>
-        <div className="prose" style={{ marginTop: 48, fontSize: "clamp(16px, 1.6vw, 18px)", lineHeight: 1.7 }}
-             dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+        <div className="prose" style={{ marginTop: 48, fontSize: "clamp(16px, 1.6vw, 18px)", lineHeight: 1.7 }}>
+          <MarkdownBody content={post.content} />
+        </div>
       </article>
       <Footer />
       <WhatsAppFloat />
