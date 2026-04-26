@@ -5,6 +5,7 @@ tag: "Process"
 readTime: "6 min read"
 date: "2026-03-25"
 excerpt: "A practical checklist for office managers and HR teams: the space, power, schedule, and small details that make on-site corporate headshots smooth."
+cover: "/images/uploads/on-site-corporate-headshot-cape-town-office.webp"
 ---
 
 If your team is having corporate headshots done at your Cape Town office, the morning runs smoothly when a few specific things are ready. None of them are complicated. Most of them get forgotten by first-time hosts.
@@ -22,6 +23,8 @@ The single biggest determinant of how well a shoot goes is the room.
 **What doesn't work.** Wide corridors that look right but have people walking through. Reception areas during business hours. Spaces with strong reflective surfaces that bounce coloured light onto the backdrop. Outdoor patios (wind moves the backdrop, sun changes light through the day).
 
 **One detail people miss.** The room needs a door that closes. Even if you trust the team not to walk through, you don't want surprise interruptions during the shoot. A photographed face mid-laugh because someone opened the door looking for the meeting room is not the photo we wanted.
+
+![On-site corporate headshot setup in a Cape Town office meeting room with backdrop and lighting in place](/images/uploads/corporate-headshot-office-setup-meeting-room.webp)
 
 ## Power and tech
 
@@ -84,6 +87,8 @@ A few details that make a real difference on the day.
 **A dedicated point person.** Someone on your team who's available throughout the shoot to answer questions, redirect latecomers, and manage the schedule. The photographer focuses on shooting, not on chasing people.
 
 **Power for laptops.** If team members are working between slots, having a power outlet near the waiting area means they can stay productive. Reduces the "did I waste my morning" feeling.
+
+![On-site corporate headshot photographer working with a Cape Town team during an office shoot](/images/uploads/on-site-headshot-photographer-cape-town-team.webp)
 
 ## What we don't need
 
