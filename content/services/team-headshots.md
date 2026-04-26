@@ -20,10 +20,10 @@ intro:
     - The hardest part of team headshots is consistency. Different photographers, different lighting setups, different backgrounds across people, and the wall of headshots on your About page ends up looking like a collage of strangers.
     - We solve that by shooting tethered with the same setup every time, whether in our Woodstock studio or in your meeting room. Same lighting, same lens, same backdrop. Every face on your team page looks like part of one team.
     - On-site is straightforward. We arrive 45 minutes before the first sitting to set up. Each person spends about ten minutes with us. We're packed up and out before lunch on a typical morning.
-    - Pricing is R750 per head in studio, or R4,500 setup plus R750 per head on-site, anywhere in Cape Town. Volume terms become more favourable for larger groups — ask for a quote when you brief us.
+    - Pricing scales with group size. R750 per head from 6 people in studio (R1,250 each for groups of 1-5). On-site is R4,500 setup plus R750 per head, with the setup fee waived for groups of 15 to 30. Custom quote for 31 or more. Full breakdown in the comparison below.
 faqs:
   - q: How much does a team headshot session cost in Cape Town?
-    a: "R750 per head in studio. R4,500 setup plus R750 per head on-site at your office, anywhere in greater Cape Town. Volume terms become more favourable for larger groups (40+ people). No hidden travel fees within the metro."
+    a: "In studio: R1,250 per head for groups of 1-5, then R750 per head from 6 people (no base fee). On-site: R4,500 setup plus R750 per head for groups up to 14, then R750 per head flat for 15-30 people (setup fee waived). For 31 or more, send us a brief and we'll come back with a tailored quote. Every session includes 10 minutes per person and 2 retouched images each. No hidden travel fees within the metro."
   - q: How long does each person take?
     a: About 10 minutes per person on average — quick brief, a few angle adjustments, three to four selects on the screen, done. We work fast without rushing. Nobody feels processed.
   - q: How many people can you photograph in one session?
@@ -71,15 +71,27 @@ The constant in both: tethered shooting. Every frame appears on a large screen w
 
 Both work. The right call depends on team size, budget, and how disruptive a half-day off can be.
 
-| | Studio in Woodstock | On-site at your office |
+**The rate card:**
+
+| Group size | In studio | On-site |
 |---|---|---|
-| Cost (small group, 10) | R7,500 (10 × R750) | R12,000 (R4,500 + 10 × R750) |
-| Cost (medium group, 30) | R22,500 | R27,000 |
-| Cost (larger group, 60) | Volume terms apply | Volume terms apply |
-| Best for | Small teams, exec groups, anyone who likes a tidy single location | 20+ people, hard-to-pull-off-the-floor teams, conferences |
-| Disruption to team | Each person travels to us | Zero travel — we come to you |
-| Setup time | None for the team | 45 minutes before first slot |
-| Logistics | Simple | Slightly more — door codes, parking, room booking |
+| 1-5 people | R1,250 per head | R4,500 setup + R750 per head |
+| 6-14 people | R750 per head | R4,500 setup + R750 per head |
+| 15-30 people | R750 per head | R750 per head, setup fee waived |
+| 31+ people | Custom quote | Custom quote |
+
+Worked examples: 4 people in studio = R5,000. 10 people in studio = R7,500. 10 people on-site = R12,000. 20 people on-site = R15,000 (setup waived).
+
+**What's included regardless of group size:** 10 minutes per person, 2 retouched images per person, tethered shooting, and consistent lighting and framing across every face. We keep your team's studio profile on file so any new joiner can match the existing look later, at standard pricing — no consistency surcharge. Additional retouched images are R350 each.
+
+**Studio or on-site, which fits your team:**
+
+| | In studio | On-site |
+|---|---|---|
+| Best for | Small teams, exec groups, single-location simplicity | 15+ people, teams hard to pull off the floor, conferences |
+| Disruption to team | Each person travels to us | Zero travel, we come to you |
+| Setup time | None for the team | 45 minutes before the first slot |
+| Logistics | Simple | Door codes, parking, room booking on your side |
 
 A useful pattern: shoot the execs in studio (so we have time to dial in their portraits) and the rest of the team on-site. The setup is identical, so the look matches.
 
