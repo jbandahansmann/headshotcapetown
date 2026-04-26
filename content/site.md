@@ -27,7 +27,7 @@ on_location:
     Same lighting, same direction, same look across every person — so your About
     page doesn't read as a collage.
   image_1: /images/uploads/cape-town-headshots-friendly-team-profile.webp
-  image_2: /images/uploads/team-headshot-00007.webp
+  image_2: /images/uploads/team-headshot-00008.webp
   stats:
     - k: 10 min
       v: per person, on average

@@ -83,7 +83,7 @@ Both work. The right call depends on team size, budget, and how disruptive a hal
 
 A useful pattern: shoot the execs in studio (so we have time to dial in their portraits) and the rest of the team on-site. The setup is identical, so the look matches.
 
-![Team headshot from a corporate group shoot in Cape Town, with consistent lighting and framing across every person](/images/uploads/team-headshot-00007.webp)
+![Team headshot from a corporate group shoot in Cape Town, with consistent lighting and framing across every person](/images/uploads/team-headshot-00008.webp)
 
 ## What we need from your office for an on-site shoot
 
