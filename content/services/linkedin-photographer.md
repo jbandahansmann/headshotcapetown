@@ -12,7 +12,7 @@ hero:
   body: Profile portraits for executives, founders and consultants. Studio session in Woodstock from R1,950, with two retouched images sized for LinkedIn. People click on a good photo. We make sure yours isn't the reason they don't.
   primary_cta: Request a quote
   secondary_cta: WhatsApp 078 919 0454
-  portrait: /images/uploads/financial-advisor-headshot-cape-town.webp
+  portrait: /images/uploads/linkedin-portrait-cape-town-professional.webp
 intro:
   eyebrow: Approach
   heading: A LinkedIn photo that earns you the next conversation.
@@ -91,7 +91,7 @@ Every LinkedIn portrait session comes back with files sized for the most common 
 
 Each image is delivered in colour and B&W. Files come in a private gallery you can download and share with anyone who needs them — your assistant, your firm's marketing person, the conference programme designer.
 
-![LinkedIn-ready team headshot from a corporate shoot in Cape Town, square crop sized for profile photos](/images/uploads/cape-town-headshots-friendly-team-profile.webp)
+![LinkedIn portrait of a Cape Town executive, sized for profile photos and About-page use](/images/uploads/linkedin-portrait-cape-town-executive.webp)
 
 ## Updating LinkedIn after your shoot
 
@@ -127,7 +127,7 @@ The general wardrobe rules for corporate headshots apply, but a LinkedIn photo h
 
 **Glasses.** If you wear them every day, keep them on. We can shoot a few without if you want the option. Anti-reflective coating helps a lot.
 
-![LinkedIn profile portrait of an executive in a blue blazer, photographed in Cape Town for use across LinkedIn and About pages](/images/uploads/corporate-headshot-male-executive-blue-blazer-cape-town.webp)
+![LinkedIn portrait of a Cape Town consultant, photographed for use across LinkedIn, About pages, and conference bios](/images/uploads/linkedin-portrait-cape-town-consultant.webp)
 
 ## Smile, no smile, or both
 
