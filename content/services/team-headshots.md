@@ -2,7 +2,7 @@
 slug: team-headshots-cape-town
 title: Team Headshots in Cape Town
 metaTitle: Team Headshots Cape Town, Studio or On-Site
-metaDescription: Consistent team headshots from R750 per head, in studio or on-site at your office anywhere in Cape Town. 10 minutes per person, 48-hour turnaround.
+metaDescription: Consistent team headshots from R1,250 per head, in studio or on-site at your office anywhere in Cape Town. 10 minutes per person, 48-hour turnaround.
 hero:
   eyebrow: Team headshots · Cape Town · For 3+
   headline_line1: Team headshots

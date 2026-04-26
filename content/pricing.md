@@ -20,12 +20,12 @@ packages:
       - "48-hour turnaround"
       - "Optional MUA referral"
   - name: "Team"
-    price_from: 3000
+    price_from: 3750
     blurb: "From three people. In studio or on-site at your office."
     features:
-      - "R750 per head in studio · 2 retouched images each"
-      - "On-site: R4,500 setup + R750 per head, anywhere in CT"
-      - "Volume discounts for larger groups"
-      - "Consistent lighting & framing across everyone"
-      - "Bulk gallery delivery"
+      - "R1,250 per head for groups of 1-5, then R750 from 6 people"
+      - "On-site: R4,500 setup + R750/head, setup waived from 15+"
+      - "Custom quote for 31+ people"
+      - "2 retouched images per person, included"
+      - "Consistent lighting & framing across the team"
 ---
