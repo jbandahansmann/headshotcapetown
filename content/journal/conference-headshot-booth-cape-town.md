@@ -22,20 +22,13 @@ For the sponsoring organisation, the booth produces a portrait library you can u
 The conference setup is intentionally minimal. We bring:
 
 - Two studio strobes with softboxes for consistent lighting
-- A neutral backdrop in white or grey
+- A neutral backdrop in white or grey (we don't currently offer custom-branded backdrop colours)
+- An on-screen tethered preview on a laptop, so delegates can review their frames as we shoot
 - The camera and a few lenses
 
 That's enough to produce sharp, well-lit corporate portraits in a conference setting. Setup takes about an hour. Pack-down is 30 minutes. The full footprint is roughly 4 by 4 metres, which fits comfortably in most conference foyers and registration areas.
 
-A few things we don't currently offer as standard at conference booths, but that are worth knowing about if you're planning a more premium delegate experience:
-
-- On-screen tethered preview so delegates can review and approve frames on the spot
-- Custom-branded backdrops in your event colours (we work with white or grey only)
-- A posing platform for height consistency across portraits
-- Branded signage at the booth
-- Per-delegate email delivery sending each person their portrait directly
-
-These elements turn a basic photography booth into a more polished, branded delegate experience. They're services we may build out in future, and for high-budget conferences they're worth discussing with the photographer in advance. Right now we deliver via a single shared gallery to the sponsoring organisation, who can distribute to delegates.
+For delivery, we set up a secure online gallery for the sponsoring organisation. Delegates access their portraits via a single link, sorted by name or delegate ID, and download what they need.
 
 ## Realistic delegate flow
 
@@ -45,9 +38,9 @@ The answer depends on what level of attention each delegate gets. Three formats:
 
 **Express format, 60-second slot.** A single frame, lit and ready, no direction beyond "look at the camera, half-smile". Good for corporate event programmes where the goal is "everyone has a current LinkedIn photo by the end of the day, and we don't have time for full sessions". Throughput: roughly 60 portraits per hour, 240 portraits in a 4-hour booth window.
 
-**Standard format, 3-minute slot.** A few frames per delegate, light direction (chin angle, where to look, what to do with hands), the photographer selects the strongest frame for retouching. Good for most professional conferences. Throughput: roughly 18 portraits per hour, 72 portraits in a 4-hour window.
+**Standard format, 3-minute slot.** A few frames per delegate, light direction (chin angle, where to look, what to do with hands), one or two frames approved on the laptop screen at the end of the slot. Good for most professional conferences. Throughput: roughly 18 portraits per hour, 72 portraits in a 4-hour window.
 
-**Premium format, 8-minute slot.** A proper short session with multiple frames, possibly an outfit change, and several frames retouched per delegate. Good for executive forums or smaller premium events. Throughput: roughly 7 portraits per hour, 28 in a 4-hour window.
+**Premium format, 8-minute slot.** A proper short session with multiple frames, possibly an outfit change, and on-screen review at the end so delegates pick their preferred frames before retouching. Good for executive forums or smaller premium events. Throughput: roughly 7 portraits per hour, 28 in a 4-hour window.
 
 For most Cape Town corporate conferences with 100 to 250 delegates, the standard format hits the sweet spot. Most conferences run two booth blocks per day (morning and afternoon), giving you 140 portraits across the day at standard pace.
 
@@ -72,13 +65,13 @@ We quote conference booths as a half-day or full-day rate, not per portrait.
 - Full-day (8 hours including setup and pack-down): R18,000.
 - Half-day (4 hours including setup and pack-down): R10,500.
 
-The rate includes the full booth setup, professional retouching of the selected portraits, and a shared gallery for the sponsoring organisation that delegates can access to download their images.
+The rate includes the full booth setup, professional retouching of the selected portraits, and a secure online gallery for the sponsoring organisation that delegates can access to download their images.
 
 Multi-day events, advanced branding, on-the-day printing for delegates, and other custom requirements get quoted separately based on scope.
 
 ## What delegates take home
 
-Delegates download their portraits from a shared gallery (link sent to the sponsoring organisation, who passes it on). Each delegate's images are sorted by name or by the order in which they were photographed.
+Delegates download their portraits from a secure online gallery (link sent to the sponsoring organisation, who passes it on). Each delegate's images are sorted by name or by the order in which they were photographed.
 
 Each delegate can download:
 
