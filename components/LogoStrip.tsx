@@ -17,7 +17,7 @@ export default function LogoStrip() {
       {logos.length ? (
         <div style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(110px, 1fr))`, gap: "clamp(20px, 4vw, 48px)", alignItems: "center", justifyItems: "center" }}>
           {logos.map((l, i) => (
-            <img key={i} src={l.logo} alt={l.name} style={{ height: 32, opacity: 0.55, filter: "grayscale(100%)", maxWidth: "100%" }} />
+            <img key={i} src={l.logo} alt={l.name} style={{ maxHeight: 36, maxWidth: 150, width: "auto", height: "auto", objectFit: "contain", opacity: 0.85 }} />
           ))}
         </div>
       ) : (
