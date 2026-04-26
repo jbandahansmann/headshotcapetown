@@ -140,8 +140,7 @@ a { color: inherit; }
 .service-prose p {
   font-size: clamp(16px, 1.55vw, 18px);
   line-height: 1.7;
-  color: var(--midnight);
-  opacity: 0.85;
+  color: rgba(2, 19, 83, 0.85);
   margin-bottom: 22px;
 }
 
@@ -149,7 +148,7 @@ a { color: inherit; }
 .service-prose h2 + p {
   font-size: clamp(18px, 1.85vw, 22px);
   line-height: 1.55;
-  opacity: 0.92;
+  color: rgba(2, 19, 83, 0.92);
   margin-bottom: 28px;
 }
 
@@ -158,10 +157,9 @@ a { color: inherit; }
   font-size: clamp(15px, 1.5vw, 17px);
   line-height: 1.6;
   margin-bottom: 8px;
-  color: var(--midnight);
-  opacity: 0.85;
+  color: rgba(2, 19, 83, 0.85);
 }
-.service-prose strong { font-weight: 600; opacity: 1; color: var(--midnight); }
+.service-prose strong { font-weight: 600; color: var(--midnight); }
 
 /* Pull quote */
 .service-prose blockquote {
