@@ -12,7 +12,7 @@ hero:
   body: For ten or more we set up a full studio in your meeting room. Same lighting, same direction, same look across every person, so your About page reads as a team.
   primary_cta: Request a quote
   secondary_cta: WhatsApp 078 919 0454
-  portrait: /images/uploads/cape-town-headshots-friendly-team-profile.webp
+  portrait: /images/uploads/team-headshot-cape-town-corporate.webp
 intro:
   eyebrow: Approach
   heading: Built for teams of three to three hundred.
@@ -83,7 +83,7 @@ Both work. The right call depends on team size, budget, and how disruptive a hal
 
 A useful pattern: shoot the execs in studio (so we have time to dial in their portraits) and the rest of the team on-site. The setup is identical, so the look matches.
 
-![Team headshot from a corporate group shoot in Cape Town, with consistent lighting and framing across every person](/images/uploads/team-headshot-00008.webp)
+![Team headshot from an on-site corporate shoot in Cape Town, with consistent lighting and framing across every person](/images/uploads/team-headshot-cape-town-on-site.webp)
 
 ## What we need from your office for an on-site shoot
 
@@ -108,7 +108,7 @@ Why a half-day a week later for stragglers. There are always two or three people
 
 For genuine emergencies (someone joins next month, an exec's photo is needed for a conference next week), we keep your team's studio profile on file. Book a 30-minute slot at our studio and we match the look exactly.
 
-![Business consultant headshot from a Cape Town team shoot, framed and lit to match the rest of the team](/images/uploads/business-headshots-consultant-cape-town.webp)
+![Studio team headshot in Cape Town, framed and lit consistently across each member of the group](/images/uploads/team-headshot-cape-town-studio.webp)
 
 ## Handling latecomers, new joiners and remote staff
 
