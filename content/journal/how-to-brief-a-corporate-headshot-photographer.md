@@ -63,6 +63,18 @@ Once the shoot is booked, here's what to expect on the day, so you can brief you
 
 **The team should know.** Send a short note before the shoot covering: arrive in your selected outfit, bring a backup, no fresh haircuts the day of, no major makeup changes, plan to spend 15 minutes on average. We provide a one-page wardrobe guide once the shoot is booked, which you can forward to the team verbatim.
 
+## Approval workflow
+
+One of the underrated decisions in a corporate headshot shoot is who approves each portrait, and when. Because we shoot tethered (the photographer's screen showing each frame within a second), approvals can happen during the shoot rather than after. Three workable patterns:
+
+**The decision maker is in the room.** This is ideal for senior executive portraits or any shoot where the brand bar is high. The decision maker sits next to the screen, sees each frame as we work, and signs off in real time. We leave the shoot with final selects already approved, and retouching can start the same day.
+
+**The individual being photographed decides.** For larger team shoots, where individual approval is appropriate, each person reviews their own frames at the screen at the end of their slot. They pick the frame they like, walk away with confidence, and the rest of the team is not held up by approval bottlenecks.
+
+**The decision maker is remote.** When a senior stakeholder can't attend in person, we set up a secure online gallery link they can access during or after the shoot. They review on their own time, approve the selects, and we move to retouching once their feedback is in. Slightly slower than in-room approval but still avoids the worst-case scenario of a long approval chain spread over weeks.
+
+Whatever pattern you choose, agree on it before the shoot. The most common cause of delays after a corporate headshot project is a multi-layered approval chain that wasn't planned for.
+
 ## Common briefing mistakes that cost money
 
 Five mistakes I see regularly that you can avoid.
@@ -79,9 +91,7 @@ Five mistakes I see regularly that you can avoid.
 
 ## After the shoot
 
-Three things worth thinking about for the post-shoot phase.
-
-**Approval workflow.** Decide before the shoot who has final say on each portrait. Is it the executive themselves, HR, or marketing? If approval involves multiple stakeholders, that's where most delays come from.
+Two things worth thinking about for the post-shoot phase.
 
 **Filing and re-use.** The retouched files should land in a shared drive or DAM system that the people who'll use them (web team, comms team, EAs) can access. Don't let the files sit in one person's email.
 
