@@ -5,7 +5,6 @@ tag: "Wardrobe"
 readTime: "4 min read"
 date: "2026-01-15"
 excerpt: "Solid colours, well-fitted necklines, the patterns that actually photograph well — and the ones that don't."
-cover: "/images/journal/wardrobe.jpg"
 ---
 
 The single most-asked question in our pre-shoot prep calls. Here's the short version.

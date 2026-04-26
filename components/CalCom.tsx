@@ -1,13 +1,31 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { siteConfig } from "../lib/siteConfig";
 
 const NAMESPACE = "headshot-cape-town";
 
 export default function CalCom() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [shouldLoad, setShouldLoad] = useState(false);
+
+  // Defer Cal.com embed until the section is near the viewport.
   useEffect(() => {
-    // Cal.com's modern embed snippet — self-initialises window.Cal so the
-    // race condition that produced "Cal is not defined" can't happen.
+    if (!sectionRef.current || shouldLoad) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldLoad(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(sectionRef.current);
+    return () => observer.disconnect();
+  }, [shouldLoad]);
+
+  useEffect(() => {
+    if (!shouldLoad) return;
     (function (C: any, A: string, L: string) {
       let p = function (a: any, ar: any) { a.q.push(ar); };
       let d = C.document;
@@ -51,10 +69,10 @@ export default function CalCom() {
       hideEventTypeDetails: false,
       layout: "month_view",
     });
-  }, []);
+  }, [shouldLoad]);
 
   return (
-    <section className="section" style={{ background: "#fff", borderTop: "1px solid #02135319" }}>
+    <section ref={sectionRef} className="section" style={{ background: "#fff", borderTop: "1px solid #02135319" }}>
       <div className="grid-2-text-right">
         <div>
           <div className="eyebrow section-tag">Or — book a 15-min call</div>
@@ -73,7 +91,13 @@ export default function CalCom() {
             ))}
           </ul>
         </div>
-        <div id="cal-inline" style={{ minHeight: 600, border: "1px solid #02135326", background: "var(--paper)" }} />
+        <div id="cal-inline" style={{ minHeight: 600, border: "1px solid #02135326", background: "var(--paper)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          {!shouldLoad && (
+            <span style={{ color: "var(--bluegrey)", fontFamily: "var(--mono)", fontSize: 12, letterSpacing: "0.08em", textTransform: "uppercase" }}>
+              Calendar loads on scroll…
+            </span>
+          )}
+        </div>
       </div>
     </section>
   );

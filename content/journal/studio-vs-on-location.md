@@ -5,7 +5,6 @@ tag: "Process"
 readTime: "6 min read"
 date: "2026-02-01"
 excerpt: "When to bring everyone to the studio, when to set up at your office, and how to keep the look consistent across both."
-cover: "/images/journal/on-location.jpg"
 ---
 
 For team shoots, the first practical question is: studio or on-site?

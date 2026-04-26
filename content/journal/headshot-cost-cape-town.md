@@ -5,7 +5,6 @@ tag: "Pricing"
 readTime: "5 min read"
 date: "2026-01-22"
 excerpt: "An honest breakdown of what corporate headshot photography costs in Cape Town, and what drives the difference."
-cover: "/images/journal/pricing.jpg"
 ---
 
 The honest answer: anywhere from R500 to R5,000 per person, depending on what you're actually buying.

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Personal({ portrait }: { portrait?: string }) {
   return (
     <section className="section" style={{ background: "#fff", borderTop: "1px solid #02135319", borderBottom: "1px solid #02135319" }}>
@@ -21,8 +23,14 @@ export default function Personal({ portrait }: { portrait?: string }) {
           </ul>
         </div>
         {portrait ? (
-          <div style={{ aspectRatio: "4/5", overflow: "hidden" }}>
-            <img src={portrait} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+          <div style={{ position: "relative", aspectRatio: "4/5", overflow: "hidden" }}>
+            <Image
+              src={portrait}
+              alt=""
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ objectFit: "cover" }}
+            />
           </div>
         ) : (
           <div style={{ aspectRatio: "4/5" }} className="placeholder">Personal portrait — upload via CMS</div>

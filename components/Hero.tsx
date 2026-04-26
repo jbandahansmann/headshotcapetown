@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Stars } from "./Stars";
 
 export default function Hero({ hero, trust }: { hero: any; trust: any }) {
@@ -36,8 +37,15 @@ export default function Hero({ hero, trust }: { hero: any; trust: any }) {
         </div>
       </div>
       {hero?.portrait ? (
-        <div style={{ aspectRatio: "4/5", overflow: "hidden" }}>
-          <img src={hero.portrait} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+        <div style={{ position: "relative", aspectRatio: "4/5", overflow: "hidden" }}>
+          <Image
+            src={hero.portrait}
+            alt=""
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority
+            style={{ objectFit: "cover" }}
+          />
         </div>
       ) : (
         <div style={{ aspectRatio: "4/5", background: "#e8e4dc" }} className="placeholder">

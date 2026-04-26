@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function OnLocation({ data }: { data: any }) {
   return (
     <section className="section-x">
@@ -21,14 +23,14 @@ export default function OnLocation({ data }: { data: any }) {
         <div className="onloc-images">
           {data?.image_1 ? (
             <div style={{ position: "absolute", top: 0, right: 0, width: 380, height: 280, overflow: "hidden" }}>
-              <img src={data.image_1} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <Image src={data.image_1} alt="" fill sizes="380px" style={{ objectFit: "cover" }} />
             </div>
           ) : (
             <div className="placeholder" style={{ position: "absolute", top: 0, right: 0, width: 380, height: 280 }}>Team shot 1 — upload via CMS</div>
           )}
           {data?.image_2 ? (
             <div style={{ position: "absolute", bottom: 0, left: 0, width: 320, height: 360, overflow: "hidden" }}>
-              <img src={data.image_2} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <Image src={data.image_2} alt="" fill sizes="320px" style={{ objectFit: "cover" }} />
             </div>
           ) : (
             <div className="placeholder" style={{ position: "absolute", bottom: 0, left: 0, width: 320, height: 360 }}>Team shot 2 — upload via CMS</div>
