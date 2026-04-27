@@ -40,7 +40,7 @@ export default function Hero({ hero, trust }: { hero: any; trust: any }) {
         <div style={{ position: "relative", aspectRatio: "4/5", overflow: "hidden" }}>
           <Image
             src={hero.portrait}
-            alt=""
+            alt={hero.portraitAlt ?? "Corporate headshot example by Headshot Cape Town"}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             priority

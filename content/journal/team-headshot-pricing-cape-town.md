@@ -1,5 +1,6 @@
 ---
 title: "How team headshot pricing actually scales in Cape Town"
+metaTitle: "Team Headshot Pricing in Cape Town"
 slug: "team-headshot-pricing-cape-town"
 tag: "Pricing"
 readTime: "5 min read"

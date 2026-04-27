@@ -1,5 +1,6 @@
 ---
 title: "Studio or on-site? Choosing the right format for your Cape Town team headshots"
+metaTitle: "Studio or On-Site Team Headshots Cape Town"
 slug: "studio-or-on-site-team-headshots"
 tag: "Process"
 readTime: "9 min read"

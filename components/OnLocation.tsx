@@ -23,14 +23,14 @@ export default function OnLocation({ data }: { data: any }) {
         <div className="onloc-images">
           {data?.image_1 ? (
             <div style={{ position: "absolute", top: 0, right: 0, width: 380, height: 280, overflow: "hidden" }}>
-              <Image src={data.image_1} alt="" fill sizes="380px" style={{ objectFit: "cover" }} />
+              <Image src={data.image_1} alt={data.alt_1 ?? "Friendly team headshot from a Cape Town corporate shoot"} fill sizes="380px" style={{ objectFit: "cover" }} />
             </div>
           ) : (
             <div className="placeholder" style={{ position: "absolute", top: 0, right: 0, width: 380, height: 280 }}>Team shot 1 — upload via CMS</div>
           )}
           {data?.image_2 ? (
             <div style={{ position: "absolute", bottom: 0, left: 0, width: 320, height: 360, overflow: "hidden" }}>
-              <Image src={data.image_2} alt="" fill sizes="320px" style={{ objectFit: "cover" }} />
+              <Image src={data.image_2} alt={data.alt_2 ?? "Team headshot from an on-location Cape Town shoot"} fill sizes="320px" style={{ objectFit: "cover" }} />
             </div>
           ) : (
             <div className="placeholder" style={{ position: "absolute", bottom: 0, left: 0, width: 320, height: 360 }}>Team shot 2 — upload via CMS</div>

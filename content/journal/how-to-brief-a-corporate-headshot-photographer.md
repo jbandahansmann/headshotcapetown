@@ -1,5 +1,6 @@
 ---
 title: "How to brief a corporate headshot photographer: a guide for HR managers and marketing teams"
+metaTitle: "How to Brief a Corporate Headshot Photographer"
 slug: "how-to-brief-a-corporate-headshot-photographer"
 tag: "Process"
 readTime: "8 min read"

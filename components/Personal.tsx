@@ -26,7 +26,7 @@ export default function Personal({ portrait }: { portrait?: string }) {
           <div style={{ position: "relative", aspectRatio: "4/5", overflow: "hidden" }}>
             <Image
               src={portrait}
-              alt=""
+              alt="Corporate male executive headshot example, Cape Town"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: "cover" }}

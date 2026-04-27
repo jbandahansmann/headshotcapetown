@@ -1,7 +1,7 @@
 ---
 slug: linkedin-photographer-cape-town
 title: LinkedIn Photographer in Cape Town
-metaTitle: LinkedIn Photographer Cape Town, Profile Headshots
+metaTitle: LinkedIn Headshots Cape Town
 metaDescription: LinkedIn profile portraits for executives, founders and consultants in Cape Town. Studio session in Woodstock from R1,950. Two images you'll actually use.
 hero:
   eyebrow: LinkedIn portraits · Cape Town · Est. 2008

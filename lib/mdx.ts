@@ -7,6 +7,7 @@ const contentDir = path.join(process.cwd(), "content");
 export type JournalPost = {
   slug: string;
   title: string;
+  metaTitle?: string;
   excerpt: string;
   tag: string;
   readTime: string;
@@ -27,6 +28,7 @@ export async function getJournalPost(slug: string): Promise<JournalPost> {
   return {
     slug,
     title: data.title,
+    metaTitle: data.metaTitle,
     excerpt: data.excerpt,
     tag: data.tag,
     readTime: data.readTime,

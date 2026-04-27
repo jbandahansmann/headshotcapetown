@@ -1,5 +1,6 @@
 ---
 title: "On-site corporate headshots: what your office needs ready before the photographer arrives"
+metaTitle: "On-Site Corporate Headshots: Office Prep Guide"
 slug: "on-site-corporate-headshot-office-prep"
 tag: "Process"
 readTime: "6 min read"

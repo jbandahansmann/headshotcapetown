@@ -1,5 +1,6 @@
 ---
 title: "Conference headshot booths: setting up a portrait corner at your Cape Town event"
+metaTitle: "Conference Headshot Booth in Cape Town"
 slug: "conference-headshot-booth-cape-town"
 tag: "Events"
 readTime: "6 min read"

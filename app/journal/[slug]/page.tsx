@@ -13,10 +13,11 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = await getJournalPost(params.slug);
+  const seoTitle = post.metaTitle ?? post.title;
   return {
-    title: post.title,
+    title: { absolute: seoTitle },
     description: post.excerpt,
-    openGraph: { title: post.title, description: post.excerpt, type: "article" },
+    openGraph: { title: seoTitle, description: post.excerpt, type: "article" },
   };
 }
 

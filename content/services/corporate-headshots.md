@@ -1,7 +1,7 @@
 ---
 slug: corporate-headshots-cape-town
 title: Corporate Headshot Photographer in Cape Town
-metaTitle: Corporate Headshot Photographer Cape Town
+metaTitle: Corporate Headshots Cape Town
 metaDescription: Studio in Woodstock and on-location across Cape Town. Tethered shooting, transparent pricing from R1,950, 48-hour turnaround. 17 years, 5★ from 27 reviews.
 hero:
   eyebrow: Corporate headshots · Cape Town · Est. 2008

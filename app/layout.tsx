@@ -5,7 +5,7 @@ import { siteConfig } from "../lib/siteConfig";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Corporate Headshot Photographer Cape Town | Headshot Cape Town",
+    default: "Corporate Headshots Cape Town | Headshot Cape Town",
     template: "%s | Headshot Cape Town",
   },
   description: siteConfig.description,

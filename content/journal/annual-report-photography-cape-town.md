@@ -1,5 +1,6 @@
 ---
 title: "Annual report photography: planning your Cape Town company's calendar"
+metaTitle: "Annual Report Photography in Cape Town"
 slug: "annual-report-photography-cape-town"
 tag: "Planning"
 readTime: "6 min read"
