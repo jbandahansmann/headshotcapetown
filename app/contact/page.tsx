@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Booking from "../../components/Booking";
+import CalCom from "../../components/CalCom";
 import WhatsAppFloat from "../../components/WhatsAppFloat";
 import { siteConfig } from "../../lib/siteConfig";
 
@@ -63,6 +64,7 @@ export default function ContactPage() {
         </p>
       </section>
       <Booking />
+      <CalCom />
       <Footer />
       <WhatsAppFloat />
       <script

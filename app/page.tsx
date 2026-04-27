@@ -12,7 +12,6 @@ import StudioInfo from "../components/StudioInfo";
 import Journal from "../components/Journal";
 import FAQ from "../components/FAQ";
 import Booking from "../components/Booking";
-import CalCom from "../components/CalCom";
 import FinalCTA from "../components/FinalCTA";
 import Footer from "../components/Footer";
 import WhatsAppFloat from "../components/WhatsAppFloat";
@@ -40,7 +39,6 @@ export default async function Home() {
       <Journal posts={journal} />
       <FAQ items={site.faq ?? []} />
       <Booking />
-      <CalCom />
       <FinalCTA />
       <Footer />
       <WhatsAppFloat />
