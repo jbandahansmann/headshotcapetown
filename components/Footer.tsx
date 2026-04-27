@@ -42,6 +42,7 @@ export default function Footer() {
             <Link href="/team-headshots-cape-town" style={{ color: "var(--paper)", textDecoration: "none" }}>Team headshots Cape Town</Link>
             <Link href="/linkedin-photographer-cape-town" style={{ color: "var(--paper)", textDecoration: "none" }}>LinkedIn photographer Cape Town</Link>
             <Link href="/journal" style={{ color: "var(--paper)", textDecoration: "none" }}>Journal</Link>
+            <Link href="/contact" style={{ color: "var(--paper)", textDecoration: "none" }}>Contact</Link>
           </div>
         </div>
       </div>

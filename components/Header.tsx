@@ -40,9 +40,9 @@ export default function Header() {
           </Link>
         ))}
       </nav>
-      <a href="#enquire" className="btn btn-primary site-cta">
+      <Link href="/contact" className="btn btn-primary site-cta">
         Request a quote →
-      </a>
+      </Link>
     </header>
   );
 }

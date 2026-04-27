@@ -26,5 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...services,
     { url: `${base}/journal`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     ...journal,
+    { url: `${base}/contact`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.8 },
   ];
 }
