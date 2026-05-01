@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://jurgen.co.za/individual-headshots/",
+      "permanent": true
+    }
+  ]
+}
